@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Grayrids">
+    <title>Business</title>
+    <link rel="shortcut icon" type="image/x-icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    <header id="hero-area">    
+     <div class="overlay"></div>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navba bg-faded" id="white-bg">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>  
+          </div> 
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" href="#hero-area">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>            
+              <li class="nav-item">
+                <a class="nav-link" href="#why">Why</a>
+              </li>       
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>       
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <ul class="mobile-menu">
+        <li>
+          <a href="#hero-area">Home</a>
+        </li>
+        <li>
+          <a href="#about">About Us</a>
+        </li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#why">Why</a>
+        </li>
+        <li>
+          <a href="#pricing">Pricing</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <div class="container">      
+        <div class="row justify-content-md-center">
+          <div class="col-md-10">
+            <div class="carousel-slider owl-carousel owl-theme">
+              <div class="item active">
+                <div class="contents text-center">
+                  <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Business Soon</h1>
+                  <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
+                  <a href="#" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Read More</a>
+                  <a href="#" class="btn btn-border wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Purchase</a>
+                  <div class="banner_bottom_btn wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="700ms">
+                    <a href="#about" class="js-target-scroll"><i class="icon-mouse"></i></a>               
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="contents text-center">
+                  <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Entrepreneurship Soon</h1>
+                  <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
+                  <a href="#" class="btn btn-border wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Get Started</a>
+                  <div class="banner_bottom_btn wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="700ms">
+                    <a href="#about" class="js-target-scroll"><i class="icon-mouse"></i></a>               
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="contents text-center">
+                  <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">More Than Just a Startup</h1>
+                  <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
+                  <a href="#" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Read More</a>
+                  <a href="#" class="btn btn-border wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Purchase</a>
+                  <div class="banner_bottom_btn wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="700ms">
+                    <a href="#about" class="js-target-scroll"><i class="icon-mouse"></i></a>               
+                  </div>
+                </div>
+              </div>
+            </div>          
+          </div>
+        </div> 
+      </div> 
+ </header>
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Who We Are</h3>
+          <h2 class="section-title wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">About Us</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+          </div>
+        </div>
+        <div class="counters">
+          <div class="row"> 
+            <div class="col-sm-6 col-md-3 col-lg-3">
+              <div class="wow fadeInUp" data-wow-delay=".2s">
+                <div class="facts-item">
+                  <div class="fact-count">
+                    <h3><span class="counter">4452</span></h3>
+                    <h4>Project Done</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3">
+              <div class="wow fadeInUp" data-wow-delay=".4s">
+                <div class="facts-item">
+                  <div class="fact-count">
+                    <h3><span class="counter">367</span></h3>
+                    <h4>Happy Clients</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3">
+              <div class="wow fadeInUp" data-wow-delay=".6s">
+                <div class="facts-item">
+                  <div class="fact-count">
+                    <h3><span class="counter">965</span></h3>
+                    <h4>Working Hours</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3">
+              <div class="wow fadeInUp" data-wow-delay=".8s">
+                <div class="facts-item">
+                  <div class="fact-count">
+                    <h3><span class="counter">280</span></h3>
+                    <h4>Followers</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img-about-out">
+        <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+      </div>
+    </section>
+    <section id="services" class="services section">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Let Us Help You</h3>
+          <h2 class="section-title wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">Our Services</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="service-box wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="icon">
+                <i class="icon-settings"></i>
+              </div>
+              <h3><a href="#">FrontEnd Web Developer</a></h3>
+              <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="service-box wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="450ms">
+              <div class="icon">
+                <i class="icon-graph"></i>
+              </div>
+              <h3><a href="#">BackEnd Web Developer</a></h3>
+              <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="service-box wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="550ms">
+              <div class="icon">
+                <i class="icon-camera"></i>
+              </div>
+              <h3><a href="#">Security Auditor</a></h3>
+              <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing</p>
+            </div>
+          </div>
+           <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="service-box wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="650ms">
+              <div class="icon">
+                <i class="icon-screen-tablet"></i>
+              </div>
+              <h3><a href="#">Startup Consultant</a></h3>
+              <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">What We Do</h3>
+          <h2 class="section-title wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">Our Works</h2>
+        </div>
+        <div class="row">          
+          <div class="col-md-12">
+            <div class="controls text-center wow fadeInUp" data-wow-delay=".6s">
+              <a class="control mixitup-control-active btn btn-common" data-filter="all">
+                All 
+              </a>
+              <a class="control btn btn-common" data-filter=".marketing">
+              FrontEnd 
+              </a>
+              <a class="control btn btn-common" data-filter=".planning">
+               BackEnd
+              </a>
+              <a class="control btn btn-common" data-filter=".research">
+               Photography 
+              </a>
+            </div>
+            <div id="portfolio" class="row wow fadeInUp" data-wow-delay="0.8s">
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning">
+                <div class="portfolio-item">
+                  <div class="portfolio-img">
+                    <img src="img/portfolio/img1.jpg" alt="" />          </div> 
+                  <div class="portfoli-content">
+                    <div class="sup-desc-wrap">
+                      <div class="sup-desc-inner">
+                        <div class="sup-meta-wrap">
+                          <a class="sup-title" href="#"><h4>Hello</h4></a>
+                          <p class="sup-description">Sample Sites</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>               
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning">
+                <div class="portfolio-item">
+                  <div class="portfolio-img">
+                    <img src="img/portfolio/img2.jpg" alt="" />         </div> 
+                  <div class="portfoli-content">
+                    <div class="sup-desc-wrap">
+                      <div class="sup-desc-inner">
+                        <div class="sup-meta-wrap">
+                          <a class="sup-title" href="#"><h4>Hello</h4></a>
+                          <p class="sup-description">Sample Sites</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>               
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix research">
+                <div class="portfolio-item">
+                  <div class="portfolio-img">
+                    <img src="img/portfolio/img3.jpg" alt="" />                  
+                  </div> 
+                  <div class="portfoli-content">
+                    <div class="sup-desc-wrap">
+                      <div class="sup-desc-inner">
+                        <div class="sup-meta-wrap">
+                          <a class="sup-title" href="#"><h4>Hello</h4></a>
+                          <p class="sup-description">Sample Sites</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>               
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing research">
+                <div class="portfolio-item">
+                  <div class="portfolio-img">
+                    <img src="img/portfolio/img4.jpg" alt="" />                  
+                  </div> 
+                  <div class="portfoli-content">
+                    <div class="sup-desc-wrap">
+                      <div class="sup-desc-inner">
+                        <div class="sup-meta-wrap">
+                          <a class="sup-title" href="#"><h4>Hello</h4></a>
+                          <p class="sup-description">Sample Sites</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>               
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning">
+                <div class="portfolio-item">
+                  <div class="portfolio-img">
+                    <img src="img/portfolio/img5.jpg" alt="" />                  
+                  </div> 
+                  <div class="portfoli-content">
+                    <div class="sup-desc-wrap">
+                      <div class="sup-desc-inner">
+                        <div class="sup-meta-wrap">
+                          <a class="sup-title" href="#"><h4>Hello</h4></a>
+                          <p class="sup-description">Sample Sites</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>               
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning research">
+                <div class="portfolio-item">
+                  <div class="portfolio-img">
+                    <img src="img/portfolio/img6.jpg" alt="" />                  
+                  </div> 
+                  <div class="portfoli-content">
+                    <div class="sup-desc-wrap">
+                      <div class="sup-desc-inner">
+                        <div class="sup-meta-wrap">
+                          <a class="sup-title" href="#"><h4>Hello</h4></a>
+                          <p class="sup-description">Sample Sites</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>               
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="why" class="why">
+      <div class="container">        
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="section-header">
+              <h3 class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Who We Are</h3>
+              <h2 class="section-title wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">Why choose Us</h2>
+            </div>
+            <div class="why-item wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="icon">
+                <i class="icon-fire"></i>
+              </div>
+              <div class="why-content">
+                <h3>Do Believe in Quality</h3>
+                <p>Our key to success is the excellent quality of work That we hold across all our projects.</p>
+              </div>
+            </div>
+            <div class="why-item wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <div class="icon">
+                <i class="icon-energy"></i>
+              </div>
+              <div class="why-content">
+                <h3>Simple and fast</h3>
+                <p>Our key to success is the excellent quality of work That we hold across all our projects.</p>
+              </div>
+            </div>
+            <div class="why-item wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="700ms">
+              <div class="icon">
+                <i class="icon-heart"></i>
+              </div>
+              <div class="why-content">
+                <h3>Intuitive and convenience</h3>
+                <p>Our key to success is the excellent quality of work That we hold across all our projects.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div id="testimonial" class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="touch-slider" class="owl-carousel owl-theme">
+                <div class="item active text-center">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conseq uatuis aute irure dolor.</p>                  
+                  <div class="client-info">
+                   <h2 class="client-name">Nash Bud</h2>
+                   <h4 class="client-details">Founder & CEO, QW Inc.</h4>
+                  </div>                
+                  <img class="img-member" src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""> 
+                </div>
+                <div class="item text-center">      
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conseq uatuis aute irure dolor.</p>            
+                  <div class="client-info">
+                   <h2 class="client-name">Jhon Nash</h2>
+                   <h4 class="client-details">Founder & CEO, QW Inc.</h4>
+                  </div>                
+                  <img class="img-member" src="https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""> 
+                </div>
+                <div class="item text-center"> 
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conseq uatuis aute irure dolor.</p>                
+                  <div class="client-info">
+                   <h2 class="client-name">Jhon Nash</h2>
+                   <h4 class="client-details">Founder & CEO, QW Inc.</h4>
+                  </div>                
+                  <img class="img-member" src="https://images.pexels.com/photos/25758/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="team" class="team-area section">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Meet Our Team</h3>
+          <h2 class="section-title wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">Team Members</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="single-team wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="400ms">
+              <img src="https://images.pexels.com/photos/842567/pexels-photo-842567.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+              <div class="team-content">
+                <h4 class="tem-member">Sanjay</h4>
+                <h6>FrontEnd Developer</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="team-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="single-team wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <img src="https://images.pexels.com/photos/842567/pexels-photo-842567.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+              <div class="team-content">
+                <h4 class="tem-member">Sanjay</h4>
+                <h6>BackEnd Developer</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="team-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="single-team wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">
+              <img src="https://images.pexels.com/photos/842567/pexels-photo-842567.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+              <div class="team-content">
+                <h4 class="tem-member">Sanjay</h4>
+                <h6>Security Auditor</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="team-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="great-started section">
+    <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+              <div class="great-started-text text-center">
+                <h4 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">We Are Ready to Help You</h4>
+                <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Get the Best Solution for Your Business</h2>
+                <a href="#" class="btn btn-common wow fadeInUp" data-wow-duration="3000ms" data-wow-delay="100ms">Get Started</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="pricing" class="section pricing-section">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Our Best Plans</h3>
+          <h2 class="section-title wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">Pricing</h2>
+        </div>
+
+        <div class="row pricing-tables">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="pricing-table wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="plan-name color-1">
+                <h3>Starter Websites</h3>
+              </div>
+              <div class="plan-price">
+                <div class="price-value"><span>Rs</span> 39 <span>.25</span></div>
+                <div class="interval">Start <br> Making</div>
+              </div>
+              <div class="plan-list">
+                <ul>
+                  <li>4 Templates</li>
+                  <li>No Assistance</li>
+                  <li>No Consultance</li>
+                  <li>1 time fees</li>
+                </ul>
+              </div>
+              <div class="plan-signup">
+                <a href="#" class="btn btn-common">get started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="pricing-table highlight-plan wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="plan-name color-2">
+                <h3>Premium Websites</h3>
+              </div>
+              <div class="plan-price">
+                <div class="price-value"><span>Rs</span> 69 <span>.99</span></div>
+                <div class="interval">High <br> Features</div>
+              </div>
+              <div class="plan-list">
+                <ul>
+                  <li>10 Templates</li>
+                  <li>24/7 Assistance</li>
+                  <li>Free Consultancy</li>
+                  <li>No fees</li>
+                </ul>
+              </div>
+              <div class="plan-signup">
+                <a href="#" class="btn btn-border">get started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="pricing-table wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="plan-name color-3">
+                <h3>Ultimate Websites</h3>
+              </div>
+              <div class="plan-price">
+                <div class="price-value"><span>Rs</span> 89 <span>.99</span></div>
+                <div class="interval">Any <br> Business</div>
+              </div>
+              <div class="plan-list">
+                <ul>
+                  <li>15 Programs</li>
+                  <li>24/7 Assistance</li>
+                  <li>Free Consultancy</li>
+                  <li>1 time fees</li>
+                </ul>
+              </div>
+              <div class="plan-signup">
+                <a href="#" class="btn btn-common">get started</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="row justify-content-md-center">          
+          <div class="col-md-10 wow rollIn" data-wow-duration="1000ms" data-wow-delay="300ms">            
+            <h2 class="section-title">CONTACT US</h2>
+            <p class="subtitle">There are many variations of passages of Lorem Ipsum available, but the majority have <br> uffered alteration, by injected humour, or new randomised words.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="section contact-icon">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <div class="box-icon wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+              <div class="icon icon-primary">
+                <i class="icon-map"></i>
+              </div>
+              <p>
+                Vaishali, Ghaziabad, U.P.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="box-icon wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="500ms">
+              <div class="icon icon-secondary">
+                <i class="icon-envelope"></i>
+              </div>
+              <p>
+                sanjaysinghbisht114@gmail.com
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="box-icon wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="700ms">
+              <div class="icon icon-tertiary">
+                <i class="icon-phone"></i>
+              </div>
+              <p>
+               +91-8929944118
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <section class="footer-Content">
+        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <h3 class="logo-title">Basic</h3>
+          <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="widget">                
+                <div class="textwidget">
+                  <p>Lorem ipsum dolor sit amet, con sectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, con sectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                </div>
+                <form class="subscribe-box">
+                  <input placeholder="Your email" type="text">
+                  <input class="btn-system" value="Send" type="submit">
+                </form>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 col-xs-12">
+              <div class="widget">
+                <h3 class="block-title">Links</h3>
+                <ul class="menu">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Works</a></li>                
+                  <li><a href="#">Pricing</a></li>  
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-6 col-xs-12">
+              <div class="widget">
+                <h3 class="block-title">Services</h3>
+                <ul class="menu">
+                  <li><a href="#">Web Design</a></li>
+                  <li><a href="#">Graphics Design</a></li>
+                  <li><a href="#">Branding</a></li>
+                  <li><a href="#">UX Consulting</a></li>
+                  <li><a href="#">Mobile Apps</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="widget">
+                <h3 class="block-title">Our Gallery</h3>
+                <ul class="featured-list">
+                  <li>
+                    <a href="#"><img alt="" src="img/featured/img1.jpg"></a>
+                  </li>
+                  <li>
+                    <a href="#"><img alt="" src="img/featured/img2.jpg"></a>
+                  </li>
+                  <li>
+                    <a href="#"><img alt="" src="img/featured/img3.jpg"></a>
+                  </li>
+                  <li>
+                    <a href="#"><img alt="" src="img/featured/img4.jpg"></a>
+                  </li>
+                  <li>
+                    <a href="#"><img alt="" src="img/featured/img5.jpg"></a>
+                  </li>
+                  <li>
+                    <a href="#"><img alt="" src="img/featured/img6.jpg"></a>
+                  </li>
+                  <li>
+                    <a href="#"><img alt="" src="img/featured/img7.jpg"></a>
+                  </li>
+                  <li>
+                    <a href="#"><img alt="" src="img/featured/img8.jpg"></a>
+                  </li>
+                </ul>             
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="site-info pull-left wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <p>Copyright @ <span id="dt"></span><a rel="nofollow" href="../../index.html" title="See Portfolio"> ans07.5gbfree.com</a></p>
+              </div>              
+              <div class="bottom-social-icons social-icon pull-right  wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">                 
+                <a class="twitter" href="https://twitter.com/GrayGrids"><i class="fa fa-twitter"></i></a>
+                <a class="facebook" href="https://web.facebook.com/GrayGrids"><i class="fa fa-facebook"></i></a> 
+                <a class="google-plus" href="https://plus.google.com/+GrayGrids"><i class="fa fa-google-plus"></i></a>
+                <a class="linkedin" href="https://www.linkedin.com/GrayGrids"><i class="fa fa-linkedin"></i></a>
+                <a class="dribble" href="https://dribbble.com/GrayGrids"><i class="fa fa-dribbble"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="#" class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+     <div id="loader">
+      <div class="cssload-thecube">
+        <div class="cssload-cube cssload-c1"></div>
+        <div class="cssload-cube cssload-c2"></div>
+        <div class="cssload-cube cssload-c4"></div>
+        <div class="cssload-cube cssload-c3"></div>
+      </div>
+    </div>
+    <script>
+      var d=new Date;
+        document.getElementById("dt").innerHTML=d.getFullYear();
+      </script>
+    <script src="js/jquery-min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>    
+    <script src="js/jquery.slicknav.js"></script>    
+    <script src="js/jquery.nav.js"></script>    
+    <script src="js/smooth-scroll.js"></script>    
+    <script src="js/smooth-on-scroll.js"></script>    
+    <script src="js/wow.js"></script>    
+    <script src="js/jquery.counterup.min.js"></script>    
+    <script src="js/waypoints.min.js"></script>    
+    <script src="js/main.js"></script>
+  </body>
+</html>

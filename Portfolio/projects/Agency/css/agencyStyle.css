@@ -1,0 +1,392 @@
+@media (min-width: 1200px) {
+  body {
+    font-family: 'Catamaran', sans-serif; }
+    body .navbar-nav .nav-item {
+      padding: 7px;
+      font-size: 1em;
+      margin-top: 10px;
+      text-align: center; }
+      body .navbar-nav .nav-item .btn-outline-danger {
+        margin-top: -7px; }
+    body .carousel-item {
+      width: 100%;
+      height: 640px; }
+      body .carousel-item img {
+        width: 100%;
+        height: 640px; }
+    body section .col-12 .qw {
+      text-align: center;
+      text-decoration: none;
+      margin: 100px auto;
+      font-weight: bolder;
+      font-family: 'Assistant', sans-serif;
+      padding: 10px;
+      color: #F4C724;
+      font-size: 2em;
+      background: linear-gradient(to right, #3C3B3F, #605C3C);
+      width: 100%; }
+    body section .col-md-4 .qe, body section .col-12 .qe {
+      width: 500px;
+      font-weight: bolder;
+      font-family: 'Bree Serif', serif;
+      padding: 20px 0;
+      margin-top: 50px;
+      background: linear-gradient(#00b09b, #96c93d);
+      color: transparent;
+      -webkit-background-clip: text; }
+    body section .col-md-4 p, body section .col-12 p {
+      font-size: 1em;
+      padding: 20px 0;
+      width: 370px;
+      font-weight: bolder; }
+    body section .eve {
+      margin-top: 100px;
+      font-family: 'Francois One', sans-serif; }
+      body section .eve .o {
+        margin: 7px auto;
+        height: 5px;
+        background-color: #FF3031; }
+      body section .eve .w {
+        margin: 10px auto; }
+    body section .ev {
+      margin-top: 60px;
+      font-family: 'Catamaran', sans-serif; }
+    body section .am .btn-block {
+      padding: 7px 50px;
+      border-radius: 30px;
+      margin-bottom: 50px;
+      font-size: 1.3em;
+      font-weight: bolder;
+      font-family: 'Assistant', sans-serif; }
+    body section .media {
+      border-bottom: 1px solid lightgrey;
+      padding: 25px; }
+    body section .cd {
+      font-weight: bolder; }
+      body section .cd .card-text {
+        font-family: 'Catamaran', sans-serif;
+        font-size: 1.3em;
+        color: #E74292; }
+      body section .cd .card-title {
+        font-family: 'Acme', sans-serif;
+        font-size: 1.6em;
+        margin-bottom: 20px;
+        color: #4834DF; }
+    body section #r {
+      background: url(../images/rainy.jpg) no-repeat center center fixed;
+      background-size: cover;
+      height: 348px; } }
+@media (min-width: 1068px) and (max-width: 1200px) {
+  body {
+    font-family: 'Catamaran', sans-serif; }
+    body .navbar-nav .nav-item {
+      padding: 5px;
+      font-size: 0.9em;
+      margin-top: 10px;
+      text-align: center; }
+      body .navbar-nav .nav-item .btn-outline-danger {
+        margin-top: -7px; }
+    body .carousel-item {
+      width: 100%;
+      height: 630px; }
+      body .carousel-item img {
+        width: 100%;
+        height: 630px; }
+    body section .col-12 .qw {
+      text-align: center;
+      text-decoration: none;
+      margin: 100px auto;
+      font-weight: bolder;
+      font-family: 'Assistant', sans-serif;
+      padding: 10px;
+      color: #E74292;
+      font-size: 2em;
+      background: linear-gradient(to right, #a8ff78, #78ffd6);
+      width: 100%; }
+    body section .col-md-4 .qe, body section .col-12 .qe {
+      width: 500px;
+      font-weight: bolder;
+      font-family: 'Bree Serif', serif;
+      padding: 20px 0;
+      margin-top: 50px;
+      background: linear-gradient(#800080, #ffc0cb);
+      color: transparent;
+      -webkit-background-clip: text; }
+    body section .col-md-4 p, body section .col-12 p {
+      font-size: 1em;
+      padding: 20px 0;
+      width: 300px;
+      font-weight: bolder; }
+    body section .eve {
+      margin-top: 100px;
+      font-family: 'Francois One', sans-serif; }
+      body section .eve .o {
+        margin: 7px auto;
+        height: 5px;
+        background-color: #FF3031; }
+      body section .eve .w {
+        margin: 10px auto; }
+    body section .ev {
+      margin-top: 60px;
+      font-family: 'Catamaran', sans-serif; }
+    body section .am .btn-block {
+      padding: 7px 50px;
+      border-radius: 30px;
+      margin-bottom: 50px;
+      font-size: 1.3em;
+      font-weight: bolder;
+      font-family: 'Assistant', sans-serif; }
+    body section .media {
+      border-bottom: 1px solid lightgrey;
+      padding: 25px; }
+    body section .cd {
+      font-weight: bolder; }
+      body section .cd .card-text {
+        font-family: 'Catamaran', sans-serif;
+        font-size: 1.3em;
+        color: #E74292; }
+      body section .cd .card-title {
+        font-family: 'Acme', sans-serif;
+        font-size: 1.6em;
+        margin-bottom: 20px;
+        color: #4834DF; }
+    body section #r {
+      background: url(../images/rainy.jpg) no-repeat center center fixed;
+      background-size: cover;
+      height: 348px; } }
+@media (min-width: 991px) and (max-width: 1068px) {
+  body {
+    font-family: 'Catamaran', sans-serif; }
+    body .navbar-nav .nav-item {
+      padding: 0px;
+      font-size: 0.9em;
+      margin-top: 10px;
+      text-align: center; }
+      body .navbar-nav .nav-item .btn-outline-danger {
+        margin-top: -7px; }
+    body .carousel-item {
+      width: 100%;
+      height: 630px; }
+      body .carousel-item img {
+        width: 100%;
+        height: 630px; }
+    body section .col-12 .qw {
+      text-align: center;
+      text-decoration: none;
+      margin: 100px auto;
+      font-weight: bolder;
+      font-family: 'Assistant', sans-serif;
+      padding: 10px;
+      color: #2ecc72;
+      font-size: 2em;
+      background: linear-gradient(to right, #FFEFBA, #FFFFFF);
+      width: 100%; }
+    body section .col-md-4 .qe, body section .col-12 .qe {
+      width: 500px;
+      font-weight: bolder;
+      font-family: 'Bree Serif', serif;
+      padding: 20px 0;
+      margin-top: 50px;
+      background: linear-gradient(#ee0979, #ff6a00);
+      color: transparent;
+      -webkit-background-clip: text; }
+    body section .col-md-4 p, body section .col-12 p {
+      font-size: 1em;
+      padding: 20px 0;
+      width: 270px;
+      font-weight: bolder; }
+    body section .eve {
+      margin-top: 100px;
+      font-family: 'Francois One', sans-serif; }
+      body section .eve .o {
+        margin: 7px auto;
+        height: 5px;
+        background-color: #FF3031; }
+      body section .eve .w {
+        margin: 10px auto; }
+    body section .ev {
+      margin-top: 60px;
+      font-family: 'Catamaran', sans-serif; }
+    body section .am .btn-block {
+      padding: 7px 50px;
+      border-radius: 30px;
+      margin-bottom: 50px;
+      font-size: 1em;
+      font-weight: bolder;
+      font-family: 'Assistant', sans-serif; }
+    body section .media {
+      border-bottom: 1px solid lightgrey;
+      padding: 25px; }
+    body section .cd {
+      font-weight: bolder; }
+      body section .cd .card-text {
+        font-family: 'Catamaran', sans-serif;
+        font-size: 1.3em;
+        color: #E74292; }
+      body section .cd .card-title {
+        font-family: 'Acme', sans-serif;
+        font-size: 1.6em;
+        margin-bottom: 20px;
+        color: #4834DF; }
+    body section #r {
+      background: url(../images/rainy.jpg) no-repeat center center fixed;
+      background-size: cover;
+      height: 348px; } }
+@media (min-width: 576px) and (max-width: 991px) {
+  body {
+    font-family: 'Catamaran', sans-serif; }
+    body .navbar-nav .nav-item {
+      padding: 0px;
+      font-size: 1em;
+      margin-top: 10px;
+      text-align: center; }
+      body .navbar-nav .nav-item .btn-outline-danger {
+        margin-top: -7px; }
+    body .carousel-item {
+      width: 100%;
+      height: 560px; }
+      body .carousel-item img {
+        width: 100%;
+        height: 560px; }
+    body section .col-12 .qw {
+      text-align: center;
+      text-decoration: none;
+      margin: 100px auto;
+      font-weight: bolder;
+      font-family: 'Assistant', sans-serif;
+      padding: 10px;
+      color: #0ABDE3;
+      font-size: 2em;
+      background: linear-gradient(to right, #FF416C, #FF4B2B);
+      width: 100%; }
+    body section .col-md-4 .qe, body section .col-12 .qe {
+      width: 500px;
+      font-weight: bolder;
+      font-family: 'Bree Serif', serif;
+      padding: 20px 0;
+      margin-top: 50px;
+      background: linear-gradient(#FDC830, #F37335);
+      color: transparent;
+      -webkit-background-clip: text; }
+    body section .col-md-4 p, body section .col-12 p {
+      font-size: 1em;
+      padding: 20px 0;
+      width: 560px;
+      font-weight: bolder; }
+    body section .eve {
+      margin-top: 100px;
+      font-family: 'Francois One', sans-serif; }
+      body section .eve .o {
+        margin: 7px auto;
+        height: 5px;
+        background-color: #FF3031; }
+      body section .eve .w {
+        margin: 10px auto; }
+    body section .ev {
+      margin-top: 60px;
+      font-family: 'Catamaran', sans-serif; }
+    body section .am .btn-block {
+      padding: 7px 50px;
+      border-radius: 30px;
+      margin-bottom: 50px;
+      font-size: 1em;
+      font-weight: bolder;
+      font-family: 'Assistant', sans-serif; }
+    body section .media {
+      border-bottom: 1px solid lightgrey;
+      padding: 15px; }
+    body section .cd {
+      font-weight: bolder; }
+      body section .cd .card-text {
+        font-family: 'Catamaran', sans-serif;
+        font-size: 1.3em;
+        color: #E74292; }
+      body section .cd .card-title {
+        font-family: 'Acme', sans-serif;
+        font-size: 1.6em;
+        margin-bottom: 20px;
+        color: #4834DF; }
+    body section #r {
+      background: url(../images/rainy.jpg) no-repeat center center fixed;
+      background-size: cover;
+      height: 348px; } }
+@media (max-width: 576px) {
+  body {
+    font-family: 'Catamaran', sans-serif; }
+    body .navbar-nav .nav-item {
+      padding: 0px;
+      font-size: 1em;
+      margin-top: 10px;
+      text-align: center; }
+      body .navbar-nav .nav-item .btn-outline-danger {
+        margin-top: -7px; }
+    body .carousel-item {
+      width: 100%;
+      height: 560px; }
+      body .carousel-item img {
+        width: 100%;
+        height: 560px; }
+    body section .col-12 .qw {
+      text-align: center;
+      text-decoration: none;
+      margin: 100px auto;
+      font-weight: bolder;
+      font-family: 'Assistant', sans-serif;
+      padding: 10px;
+      font-size: 1.6em;
+      color: #E71C23;
+      background: linear-gradient(to right, #C6FFDD, #FBD786, #f7797d);
+      width: 100%; }
+    body section .col-md-4 .qe, body section .col-12 .qe {
+      width: 500px;
+      font-weight: bolder;
+      font-family: 'Bree Serif', serif;
+      padding: 20px 0;
+      margin-top: 50px;
+      background: linear-gradient(#f7ff00, #db36a4);
+      color: transparent;
+      -webkit-background-clip: text; }
+    body section .col-md-4 p, body section .col-12 p {
+      font-size: 1em;
+      padding: 20px 0;
+      width: 300px;
+      font-weight: bolder; }
+    body section .eve {
+      margin-top: 100px;
+      font-family: 'Francois One', sans-serif; }
+      body section .eve .o {
+        margin: 7px auto;
+        height: 5px;
+        background-color: #FF3031; }
+      body section .eve .w {
+        margin: 10px auto; }
+    body section .ev {
+      margin-top: 60px;
+      font-family: 'Catamaran', sans-serif; }
+    body section .am .btn-block {
+      padding: 7px 20px;
+      border-radius: 30px;
+      margin-bottom: 50px;
+      font-size: 1em;
+      font-weight: bolder;
+      font-family: 'Assistant', sans-serif; }
+    body section .media {
+      border-bottom: 1px solid lightgrey;
+      padding: 15px; }
+    body section .cd {
+      font-weight: bolder; }
+      body section .cd .card-text {
+        font-family: 'Catamaran', sans-serif;
+        font-size: 1.3em;
+        color: #E74292; }
+      body section .cd .card-title {
+        font-family: 'Acme', sans-serif;
+        font-size: 1.6em;
+        margin-bottom: 20px;
+        color: #4834DF; }
+    body section #r {
+      background: url(../images/rainy.jpg) no-repeat center center fixed;
+      background-size: cover;
+      height: 348px; } }
+
+/*# sourceMappingURL=agencyStyle.css.map */

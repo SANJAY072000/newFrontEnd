@@ -1,0 +1,55 @@
+body
+{
+    height: 100%;
+}
+video
+{
+    position:fixed;
+top:50%;
+left:50%;
+margin-top: -50%;
+margin-left: -50%;
+}
+div
+{
+    position:relative;
+z-index: 3;
+margin:100px auto;
+text-align: center;
+width:70%;
+opacity: 0.75;    
+}
+h1
+{
+    font-family: 'Spicy Rice', cursive;
+background-color: #1e9f75;
+width: 100%;
+margin-bottom:25px;
+padding: 25px;
+font-size: 3em;
+}
+p
+{
+    font-family: 'Puritan', sans-serif;
+background-color: #584c6d;
+color:white;
+padding: 33px;
+margin-top: -3%;
+width:98%;
+font-size: 1.5em;
+background-image: url(../../../css/images/bg1.jpg); 
+}
+a{
+    display: inline-block;
+color:crimson;
+width:300px;
+    text-decoration: none;
+    border: 3px crimson solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 2em;
+    }
+
+
+

@@ -1,0 +1,13 @@
+@mixin jb(){
+    text-align: center;
+    margin: 50px auto;
+    font-family: 'Noto Serif', serif;
+    font-weight: bolder;
+    background: linear-gradient(to right,#8A2387,#E94057,#F27121);
+    color: transparent;
+    -webkit-background-clip:text;
+}
+@mixin ja(){
+    text-decoration: line-through;
+    opacity: 0.4;
+}

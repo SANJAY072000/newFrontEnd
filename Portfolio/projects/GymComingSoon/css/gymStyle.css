@@ -1,0 +1,24 @@
+body{background: url(../images/bgGymOp.png)
+no-repeat center center fixed;
+background-size: cover;
+font-family: 'Lobster', cursive;}
+.t{background-color: orangered;
+    width: 65%;
+    opacity: 0.55;
+text-align: center;
+margin:  100px 1006px 90px 282px;
+border-radius: 25px;}
+h1{font-size: 4em;
+font-family: 'Vidaloka', serif;}
+p{font-size: 2em;}
+button{border-radius: 25px;
+    width: 5%
+    background-color: rgba(50,50,50);
+padding: 30px;
+text-align: center;
+font-size: 1.4em;
+color: black;
+font-family: 'Prompt', sans-serif;
+}
+i{color: white;
+font-size: 2em;}

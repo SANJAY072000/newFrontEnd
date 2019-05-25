@@ -1,0 +1,54 @@
+body
+{
+    font-family: 'Catamaran', sans-serif;
+}
+.sidebar
+{
+/*    display: none;*/
+}
+.nav-sidebar
+{
+    margin: 80px -20px 20px 20px; 
+    
+}
+.nav-sidebar li a
+{
+    padding: 20px;
+}
+.main
+{
+    margin: 50px 0 0 0;
+    background-color: ;
+    padding: 20px;
+}
+.placeholders
+{
+    margin: 10px 0 30px 0; 
+}
+.placeholder
+{
+    margin-top: 20px;
+}
+.placeholder img
+{
+    display: inline;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

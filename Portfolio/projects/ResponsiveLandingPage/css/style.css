@@ -1,0 +1,168 @@
+@media (max-width:576px)
+{
+  body{
+    background: url(https://cdn.pixabay.com/photo/2014/12/08/14/23/pocket-watch-560937__340.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  h1
+  {
+  font-family: 'Catamaran', sans-serif;
+    margin: 250px auto;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    padding: 0 20px;
+  }
+  .sz
+  {
+    font-size: 0.8em;
+  }
+  .btn{
+    color: black;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    margin-left: 150px;
+    margin-top: -350px;
+    padding:0px 40px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, grey,white);
+  }
+  .btn:hover
+  {
+    background: linear-gradient(to bottom right, red,white,blue);
+    text-decoration: line-through;
+    color: black;
+  }
+}
+@media (min-width:577px) and (max-width:768px)
+{
+  body{
+    background: url(https://cdn.pixabay.com/photo/2017/02/01/18/32/pocket-watch-2031021__340.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  h1
+  {
+  font-family: 'Catamaran', sans-serif;
+    margin: 250px auto;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+  }
+  .sz
+  {
+    font-size: 0.8em;
+  }
+  .btn{
+    color: black;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    margin-left: 150px;
+    margin-top: -350px;
+    padding:0px 40px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, grey,white);
+  }
+  .btn:hover
+  {
+    background: linear-gradient(to bottom right, red,white,blue);
+    text-decoration: line-through;
+    color: black;
+  }
+}
+@media (min-width:769px) and (max-width:991px)
+{
+  body{
+    background: url(https://cdn.pixabay.com/photo/2016/06/16/16/44/clock-1461689__340.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  h1
+  {
+  font-family: 'Catamaran', sans-serif;
+    margin: 250px auto;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+  }
+  .sz
+  {
+    font-size: 0.8em;
+  }
+  .btn{
+    color: black;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    margin-left: 230px;
+    margin-top: -350px;
+    padding:0px 40px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, grey,white);
+  }
+  .btn:hover
+  {
+    background: linear-gradient(to bottom right, red,white,blue);
+    text-decoration: line-through;
+    color: black;
+  }
+}
+@media (min-width:992px) and (max-width:1199px)
+{
+body{
+  background: url(https://cdn.pixabay.com/photo/2017/11/27/07/02/time-2980690__340.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+h1
+{
+  font-family: 'Cuprum', sans-serif;
+  margin: 250px auto;
+  color: white;
+  text-align: center;
+}
+.sz
+{
+  font-size: 0.7em;
+}
+.btn{
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  margin-left: 300px;
+  margin-top: -350px;
+  padding:0px 60px;
+border-radius: 30px;
+}
+.btn:hover
+{
+  background-color: crimson;
+  text-decoration: line-through;
+}
+}
+@media (min-width:1200px)
+{
+body{
+  background: url(https://cdn.pixabay.com/photo/2017/11/27/07/02/time-2980690__340.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+h1
+{
+  font-family: 'Cuprum', sans-serif;
+  margin: 250px auto;
+  color: white;
+  text-align: center;
+}
+.sz
+{
+  font-size: 0.7em;
+}
+.btn{
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  margin-left: 400px;
+  margin-top: -350px;
+  padding:0px 60px;
+border-radius: 30px;
+}
+.btn:hover
+{
+  background-color: crimson;
+  text-decoration: line-through;
+}
+}

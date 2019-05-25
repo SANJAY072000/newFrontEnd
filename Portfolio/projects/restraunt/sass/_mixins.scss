@@ -1,0 +1,311 @@
+@mixin navbar-brand-xl(){
+    font-size: 2.4em;
+    padding: 0px;
+    margin-left: 100px;
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient(to right,#ee0979,#ff6a00);
+    -webkit-background-clip:text;
+    color: transparent;
+    font-weight: bolder;
+}
+@mixin navbar-brand-lg(){
+    font-size: 1.5em;
+    margin-left: 50px;
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient(to right,#ee0979,#ff6a00);
+    -webkit-background-clip:text;
+    color: transparent;
+    font-weight: bolder;
+}
+@mixin navbar-brand-md(){
+    font-size: 2em;
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient(to right,#ee0979,#ff6a00);
+    -webkit-background-clip:text;
+    color: transparent;
+    font-weight: bolder;
+}
+@mixin navbar-brand-sm(){
+    font-size: 1.5em;
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient(to right,#ee0979,#ff6a00);
+    -webkit-background-clip:text;
+    color: transparent;
+    font-weight: bolder;
+}
+@mixin navbar-brand-xs(){
+    font-size: 1.5em;
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient(to right,#ee0979,#ff6a00);
+    -webkit-background-clip:text;
+    color: transparent;
+    font-weight: bolder;
+}
+@mixin carousel-item(){
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 550px;
+}
+@mixin carousel-caption(){
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bolder;
+   font-family: 'Slabo 27px', serif;
+}
+@mixin r1-xl(){
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+@mixin c1-xl(){
+    height: 20%;
+    border-bottom: 1.55px dashed #e0bf5e;
+    border-top: 1.55px dashed #e0bf5e;
+    margin-top: 7px;
+    color: transparent;
+    flex-grow: 1;
+}
+@mixin c2-xl(){
+text-align: center;
+font-weight: bolder;
+font-family: 'Roboto Condensed', sans-serif;
+}
+@mixin h5-xl(){
+    width: 70%;
+    margin-left: 160px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Satisfy', cursive;
+    color: #707070;
+}
+@mixin hist-xl(){
+   color: #bfa456;
+font-family: 'Great Vibes', cursive;
+text-align: center;  
+}
+@mixin p1-xl(){
+     font-family: 'Catamaran', sans-serif;
+    font-size: 1.15em;
+    color: #707070;
+    margin-top: 40px;
+}
+@mixin c4-xl(){
+     width: 540px;
+    height: 540px;
+    margin-left: -40px;
+    margin-top: 105px;
+}
+@mixin rr1-xl(){
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+@mixin cc1-xl(){
+    height: 7%;
+    border: 3px solid #e0bf5e;
+    margin-top: 40px;
+    color: transparent;
+}
+@mixin cc2-xl(){
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Patua One', cursive;
+    color: white;
+    padding: 20px;
+    flex-grow: 3;
+}
+@mixin h-xl(){
+    width: 70%;
+    margin-left: 185px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    color: #b29859;
+}
+@mixin cc4-h1-xl(){
+    text-align: center;                    
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    color: #b29859; 
+}
+@mixin cc4-h3-xl(){
+    font-size: 2.5em;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+@mixin cc4-h4-xl(){
+    margin-top: 50px;
+    color: white;
+    padding: 12px;
+    font-family: 'Fjalla One', sans-serif;
+}
+@mixin mnu-xl(){
+    background-image: url(../images/menu_left.jpg),
+    url(../images/menu_right.jpg);
+    background-position: top left, top right;
+    min-height: 950px;
+    background-repeat: no-repeat;
+}
+@mixin mnu-col-12-xl(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+@mixin mnu-mh-xl(){
+     text-align: center;
+     font-family: 'Roboto Condensed', sans-serif;
+     color: #887025;
+}
+@mixin mnu-col-3-xl(){
+    color: #bfa761;
+    font-weight: bolder;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.3em;
+    text-align: left;
+}
+@mixin mnu-btn-xl(){
+    color: #bfa761;
+    padding: 15px 35px;
+    border: 2px solid #bfa760;
+    font-size: 1.3em;
+    font-family: 'Catamaran', sans-serif;
+}
+@mixin mnu-btnhover-xl(){
+    color: white;
+    background-color: #bfa761;
+    padding: 15px 35px;
+    border: 2px solid #bfa760;
+    font-size: 1.3em;
+    font-family: 'Catamaran', sans-serif;
+}
+@mixin as-xl(){
+    background-color: #141313;
+    padding: 30px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    height: 100%;
+    margin-bottom: 120px;
+    margin-top: 70px;
+}
+@mixin as-ul-xl(){
+    margin-top: -70px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+@mixin as-ahover-xl(){
+    border-bottom:2px solid #c1a667; 
+    text-decoration: none;
+    cursor: pointer;
+}
+@mixin as-gl-img-xl(){
+    width: 366px;
+    height: 300px;
+    margin-left: -10px;
+}
+@mixin as-gl-img-lg(){
+    width: 295px;
+    height: 300px;
+    margin-left: -5px;
+}
+@mixin as-gl-img-sm(){
+    width: 235px;
+    height: 250px;
+    margin-left: -5px;
+}
+@mixin as-gl-img-xs(){
+    width: 350px;
+    height: 250px;
+    margin-left: 20px;
+}
+@mixin bk-h3-xl(){
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    font-size: 1.9em;
+}
+@mixin bk-sb-xl(){
+    border: 1px solid #b29859;
+    height: 1px;
+    margin-top: 43px;
+}
+@mixin bk-col-12-h1-xl(){
+    font-family: 'Fira Sans', sans-serif;
+    color: #444342;
+    font-weight: bolder;
+}
+@mixin test-xl(){
+    height: 600px;
+    margin-top: 850px;
+    margin-bottom: 100px;
+}
+@mixin test-t1-xl(){
+    background: url(../images/testimonials_logo.png)
+    no-repeat center center;
+    height: 150px;
+    margin-top: 20px;
+}
+@mixin test-tst-xl(){
+    font-family: 'Fira Sans', sans-serif;
+    color: #bfa760;
+    margin-left: 80px;
+    padding: 0px;
+    border-bottom: 3px solid white;
+    width: 50px;
+    font-size: 2.2em;
+}
+@mixin blockquote-xl(){
+    width: 100%;
+    height: 400px;
+    color: #e2e9ed;
+    font-size: 1.6em;
+}
+@mixin blockquote-footer-xl(){
+    color: #bfa760;
+    margin-top: 50px;
+    font-size: 1em;
+}
+@mixin ftr-xl(){
+    background-color: #141313;
+    margin-top: -100px;
+    height: 415px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin ftr-row-xl(){
+    color: white;
+    font-size: 2.3em;
+    text-align: center;
+}
+@mixin ftr-insta-xl(){
+    background: linear-gradient(to right,#8A2387,#E94057,#FF0080);
+    -webkit-background-clip:text;
+    color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

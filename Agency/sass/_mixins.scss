@@ -1,0 +1,24 @@
+@mixin jb(){
+    text-align: center;
+    text-decoration: none;
+    margin: 100px auto;
+    font-weight: bolder;
+    font-family: 'Assistant', sans-serif;
+    padding: 10px;
+}
+@mixin ja(){
+    width: 500px;
+    font-weight: bolder;
+    font-family: 'Bree Serif', serif;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+@mixin bj(){
+    margin-top: 100px;
+    font-family: 'Francois One', sans-serif;
+}
+@mixin aj()
+{
+    margin-top: 60px;
+    font-family: 'Catamaran', sans-serif;
+}

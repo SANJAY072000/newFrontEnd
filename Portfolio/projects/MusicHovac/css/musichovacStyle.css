@@ -1,0 +1,178 @@
+*
+{
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+.nav-item
+{
+    margin: 10px 15px;
+    color: white;
+}
+.navbar-toggler
+{
+    color: white !important;
+}
+.nav-item a
+{
+   
+    color: white !important;
+    font-weight: bolder;
+}
+.nav-item a:hover
+{
+   font-weight: bolder ! important;
+    color: crimson!important;
+}
+.navbar
+{
+    background-color: transparent;
+   position: fixed;
+    z-index: 2;
+}
+.navbar-brand:hover
+{
+    background-color:blueviolet!important;
+}
+.newnav
+{
+    background-color: #060a10;
+        opacity: 0.9;
+
+}
+.carousel-item
+{
+    height: 650px;
+    width:100%;
+}
+.carousel-item img
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 650px;
+    width:100%;
+    z-index: 1;
+}
+section .r
+{
+  padding: 10px 30px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    background-color: #ff0068;
+    font-family: 'Merriweather', serif;
+}
+.c
+{
+    padding: 20px;
+    margin-top: 50px;
+}
+marquee h1
+{
+    background: linear-gradient(#40E0D0,#FF8C00,#FF0080);
+    color: transparent;
+    -webkit-background-clip:text;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bolder;
+}
+.ft
+{
+    background: linear-gradient(#FC466B,#3F5EFB);
+    color: transparent;
+    -webkit-background-clip:text;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.c
+{
+    background-image: url(https://images.pexels.com/photos/1341279/pexels-photo-1341279.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    margin-bottom: 0px;
+    padding-bottom: 150px;
+    margin-top: 0;
+}
+.c h4
+{
+    background: linear-gradient(#11998e,#38ef7d);
+    color: transparent;
+    -webkit-background-clip:text;
+    font-family: 'PT Serif', serif;
+    font-weight: bolder;
+}
+.tf
+{
+    background: linear-gradient(#CB356B,#BD3F32);
+    color: transparent;
+    -webkit-background-clip:text;
+    font-family: 'Catamaran', sans-serif;
+}
+.display-6
+{
+    background: linear-gradient(#CB356B,#BD3F32);
+    color: transparent;
+    -webkit-background-clip:text;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bolder;
+}
+.q
+{
+    padding: 50px;
+    background-color: #060a10;
+    margin-bottom: 0px;
+    padding-bottom: 130px;
+}
+.w
+{
+    background: linear-gradient(to right,#333399,#ff00cc);
+    color: white;
+    padding: 100px;
+    opacity: 0.7;
+    font-weight: bolder;
+   font-family: 'Catamaran', sans-serif;
+}
+.w img
+{
+margin-top: 100px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,206 @@
+body
+{
+   height: 100%; 
+}
+
+.navbar-brand
+{
+    font-size: 3.75em;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-family: 'Merriweather', serif;
+}
+
+.nav-link
+{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+   margin: 10px 20px;
+     color: orangered!important;
+}
+
+.nav-link:hover
+{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+   margin: 10px 20px;
+     color:forestgreen !important;
+}
+
+.fa-globe,.fa-search
+{
+    margin:  20px 20px;
+    font-size: 1.5em;
+    color: orangered!important;
+}
+
+.carousel-item
+{
+    width: 100%;
+    height: 670px;
+   
+}
+
+.carousel-item img
+{
+    width: 100%;
+    height: 670px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.a1
+{
+    font-weight: bolder;
+    color: white !important;
+    font-family: 'Old Standard TT', serif;
+    position: fixed;
+    z-index: 2;
+    margin-top: -400px ;
+    margin-left: 50%;
+    padding: 80px;
+}
+
+.q h3
+{
+    padding: 20px;
+    margin-top: -150px;
+    text-align: right;
+    margin-left: 100px;
+    width: 350px;
+    color: crimson;
+    font-weight: bolder;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.q .btn
+{
+    margin-left: 140px;
+    padding: 10px 30px;
+    font-size: 1.5em;
+}
+
+.w h3
+{
+    color: white;
+    text-align: center;
+    margin-top: -180px;
+    font-family: 'Courgette', cursive;
+    font-weight: bolder;
+}
+
+.e img
+{
+    margin-top: 138px;
+    width: 350px;
+    height: 397px;
+}
+
+.r,.t 
+{
+    width: 50%;
+    font-weight: bolder;
+    padding: 30px;
+    background-color: #eeeeee;
+    margin-bottom: 0px;
+}
+
+.ci .carousel
+{
+  width: 100%;
+    height: 400px;
+}
+
+.ci .carousel-item
+{
+  width: 600px;
+    height: 400px;
+}
+
+.ci img
+{
+    margin-left: 100px;
+  width: 400px !important;
+    height: 300px;
+}
+
+.ci blockquote
+{
+    margin-left: 600px;
+    margin-top: 100px;
+    width: 100%;
+    font-family: 'Old Standard TT', serif;
+}
+
+.y
+{
+    height: 300px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+}
+
+.y .col-6
+{
+    border-right: 1px solid skyblue;
+    border-top: 0.02em solid grey;
+    padding-top: 100px;
+}
+
+.qe
+{
+   position: absolute;
+    top: 4820px;
+    left: 550px;
+padding: 10px 30px;
+   
+}
+
+footer h5
+{
+    width: 300px;
+    padding: 50px;
+    margin-bottom: 0;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+footer ul
+{
+   list-style-type: none;
+    color: white;
+    margin-left: 40px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+footer li
+{
+    margin-top: 0;
+    padding: 15px;
+}
+
+.az
+{
+   margin-top: -100px;
+ margin-left: 50px;
+
+}
+
+.az .fa-lg
+{
+padding-left: 30px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+

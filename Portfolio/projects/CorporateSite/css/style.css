@@ -1,0 +1,371 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:none;
+}
+
+ol, ul {
+	list-style-type:none;
+}
+
+h1, h2, h3, h4, h5, h6, li {
+	line-height:100%;
+}
+
+blockquote, q {
+	quotes:none;
+}
+
+q:before, q:after {
+	content:"";
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+input, textarea, select {
+	font:12px Arial, Helvetica, sans-serif;
+	vertical-align:middle;
+	padding:0;
+	margin:0;
+}
+
+textarea {
+	overflow:auto;
+	resize:none;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+	line-height:20px;
+	color:#474632;
+	font-family: 'Catamaran', sans-serif;
+	background:url(../images/a.jpg)
+        no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+}
+
+h1 {
+	font-size:33px;
+	margin-bottom:20px;
+}
+
+h2 {
+	font-size:20px;
+	margin-bottom:20px;
+}
+
+h3 {
+	font-size:18px;
+	margin-bottom:20px;
+}
+
+h4 {
+	font-size:16px;
+	margin-bottom:15px;
+}
+
+h5 {
+	font-size:14px;
+	margin-bottom:10px;
+}
+
+h6 {
+	font-size:12px;
+	margin-bottom:10px;
+}
+
+
+	a {color: #4F3110;text-decoration: underline;}
+	a:hover {color: #4F3110;text-decoration: none;}
+
+
+	sup, sub {vertical-align: baseline;position: relative;top: -0.4em;}
+	sub { top: 0.4em; }
+
+	ul, ol {padding:0;margin:0;}
+	ul li {list-style-type:disc;}
+	ol li {list-style-type:decimal;}
+	ul li,
+	ol li {font-size: 12px; line-height: 16px;margin: 0 0 10px 15px;}
+
+	
+	table,th,td {border:1px solid #AAAAAA;}
+	th {padding:3px; font-weight:bold;color:#344b3b;}
+	tr {margin:0 0 5px 0;padding:3px;}
+	td {padding:5px;margin:0 1px;}
+	
+	
+	hr {border-bottom: 1px solid #afb6a6;margin:20px 0;padding:0;height:2px;width:100%; margin-bottom:10px;}
+
+.clear {
+	clear:both;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+.copyright {
+	border: 0px;
+	height: 1px;
+	width: 1px;
+}
+
+#wrapper {
+	width:1000px;
+	margin:0 auto;
+	padding:0;
+}
+
+#header {
+     color: orangered;
+	padding:0px;
+}
+
+#header .banner_img{
+  
+	background:url(../images/header.jpg) no-repeat left top;
+	height:177px;
+	padding:90px 95px 0 95px;
+	-webkit-border-radius: 5px 5px 0px 0px;-moz-border-radius: 5px 5px 0px 0px;border-radius: 5px 5px 0px 0px;
+}
+
+#header h1{
+     
+	font-size:4em;
+	font-family: 'Anton', sans-serif;
+	
+	margin:0px;
+    margin-bottom: 20px;
+	padding-bottom:50px;
+}
+
+#header h1 a {
+	color:#daddd6;
+	text-decoration: none;
+}
+
+#header h1 a:hover {
+	text-decoration: none;
+}
+
+#header p{
+	font-size:1.7em;
+	margin-top:-40px;
+    padding: 20px;
+}
+
+.navigation{
+	border-bottom:#adb1b2 solid 1px;
+	padding:15px 5px;
+	background: #282924;
+}
+
+.navigation ul{
+	margin:0px;
+	padding:0px;
+}
+
+.navigation ul li{
+	margin:0px;
+	padding:0px 37px;
+	display:inline;
+	font-size:1.2em;
+	list-style-type:none;
+	border-right:#b2b3ad solid 1px;
+}
+
+.navigation ul li a{
+	color:orangered;
+	text-decoration:none;
+}
+
+.navigation ul li a:hover{
+	text-decoration:underline;
+    color: crimson;
+}
+
+.navigation ul li:last-child {
+	border-right:none;
+}
+
+#page_content{
+	background-color:rgb(50,50,50);
+	padding:10px;
+}
+
+#page_content .left_section{
+	background-color:#dae1d1;
+	padding:30px;
+	width:700px;
+	float:left;
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+	-moz-box-shadow: 0 0 3px 3px #d3daca;
+	-webkit-box-shadow: 0 0 3px 3px#d3daca;
+	box-shadow: 0 0 3px 3px #d3daca;
+}
+
+#page_content .left_section .top_content{
+    text-align: center;
+	padding:0 0 15px 0;
+	border-bottom:#a2a999 solid 1px;
+	margin-bottom:30px;
+}
+#page_content .left_section .top_content h2
+{
+  font-size: 2em;  
+}
+#page_content .left_section .top_content p
+{
+    font-size: 1.2em;
+}
+
+#page_content .left_section .top_content .column_one{
+	width:300px;
+	float:left;
+	margin-bottom:30px;
+    padding:30px;
+}
+
+#page_content .left_section .top_content .column_two{
+	width:300px;
+	float:right;
+	margin-bottom:30px;
+     padding:20px;
+}
+
+a.btn{
+	color:white;
+	font-size:1.3em;
+    background: linear-gradient(to bottom right,white, grey,grey,grey,white);
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+	text-decoration:none;
+	padding:10px;
+	font-weight:bold;
+display:inline-block;
+	border:#929989 solid 1px;
+}
+
+a.btn:hover{
+    color: crimson;
+    background: linear-gradient(to bottom right,#2193b0,#6dd5ed);
+	text-decoration:underline;
+}
+
+.common_content{
+    text-align: center;
+	padding:20px;
+    font-family: 'Catamaran', sans-serif;
+}
+.common_content p
+{
+    font-size: 1.2em;
+    padding: 20px;
+    margin-top: -20px;
+}
+.common_content h2
+{
+    font-size: 2.5em;
+}
+.border_none{
+	border:none!important;
+	margin:0px!important;
+}
+.right_side_bar .col_2 img
+{
+    margin-left: -20px;
+    width: 210px;
+    height: 250px;
+}
+.right_side_bar{
+	width:200px;
+	margin-top:10px;
+	float:right;
+}
+
+.right_side_bar h1{
+	font-size:2em;
+	padding:0 0 0 30px;
+	font-family: 'Roboto', sans-serif;
+    color: orangered;
+	margin-bottom:17.5px;
+	background:url(../images/star.png) no-repeat left center;
+}
+
+.right_side_bar .col_1{
+	padding:20px 0 20px 0;
+}
+
+.right_side_bar .col_1 .box{
+	background-color:rgb(50,50,50);
+	padding:10px 12px;
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+}
+
+.right_side_bar .col_1 .box ul{
+	margin:0px;
+	padding:0px;
+}
+
+.right_side_bar .col_1 .box ul li{
+	margin:0px 0px 8px;
+	padding:20px 0px 0px 25px;
+	font-size:1.2em;
+	list-style-type:none;
+	background:url(../images/li.png) no-repeat left center;
+}
+
+.right_side_bar .col_1 .box ul li a{
+	color: white;
+	text-decoration:none;
+}
+
+.right_side_bar .col_1 .box ul li a:hover{
+	color:crimson;
+	text-decoration:underline;
+}
+
+#footer{
+    color: orangered;
+	clear:both;
+	padding:20px 0 20px 0;
+	height:20px;
+	font-weight:bold;
+	text-align:center;
+	font-family: 'Catamaran', sans-serif;
+	font-size:1.3em;
+	line-height:20px;
+	background-color:rgb(50,50,50);
+	-webkit-border-radius: 0px 0px 5px 5px;-moz-border-radius: 0px 0px 5px 5px;border-radius: 0px 0px 5px 5px;
+}
+#footer a
+{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: white;
+    padding-left: 10px;
+}
+#footer a:hover
+{
+    font-size: 1.5em;
+    color: crimson;
+    text-decoration: underline;
+    padding-left: 15px;
+}

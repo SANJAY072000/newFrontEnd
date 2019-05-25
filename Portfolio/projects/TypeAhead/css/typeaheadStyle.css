@@ -1,0 +1,17 @@
+#the-basics
+{
+    font-size: 3em;
+}
+#the-basics input
+{
+    margin-left: 50%;
+}
+.jumbotron
+{
+    height: 800px;
+}
+.tt-menu
+{
+    margin-left: 50.5% !important;
+    width: 500px !important;
+}

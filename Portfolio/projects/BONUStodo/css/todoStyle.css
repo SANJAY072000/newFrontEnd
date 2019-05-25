@@ -1,0 +1,52 @@
+.r{
+margin-top: 100px;
+text-align: center;
+}
+.r input
+{
+  padding-left: 20px;
+  margin-left: -100px;
+  margin-top: 1.5px;
+  width: 800px;
+  height: 45px;
+  font-size: 1.5em;
+  text-align: left;
+}
+h2,h4
+{
+  margin-top: 50px;
+  margin-bottom: -50px;
+ font-family: 'Bungee Shade', cursive;
+font-weight: bolder;
+color: white;
+}
+h2
+{
+  margin-top: 0px;
+}
+.btn
+{
+  font-family: 'Catamaran', sans-serif;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 10px 18px;
+}
+ul{
+  list-style-type: decimal-leading-zero;
+  padding-top: 50px;
+  margin-top: 50px;
+  width: 1000px;
+}
+ul li
+{
+  width: 1000px;
+  font-size: 1.37em;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: 'Roboto Slab', serif;
+  background: linear-gradient(#f12711,#f5af19);
+  color: transparent;
+  -webkit-background-clip: text;
+  padding: 20px 0;
+}

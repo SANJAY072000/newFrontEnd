@@ -1,0 +1,182 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+}
+body
+{
+    
+    font-family: 'Galada', cursive;
+    height: 100%;
+    background: 
+  radial-gradient(#d57eeb,#fccb90,white,#fccb90,white,grey);
+}
+.wrapper
+{
+    width: 300px;
+    height: 525px;
+    margin: 100px auto;
+    border: 6px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+.e
+{
+  border: none;
+    display: inline;
+    color: darkred;
+}
+.header
+{
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    background: linear-gradient(to right,#3a1c71,#d76d77 ,#ffaf7b);
+    border-radius: 10px 10px 0 0;
+    padding: 20px 0 0 0;
+    font-size: 1.7em;
+  font-family: 'Galada', cursive;
+    font-weight: lighter;
+    opacity: 0.95;
+    color: yellow;
+}
+span
+{
+    width: 100%;
+    margin-bottom: 0;
+    height:90%;
+    border-bottom: 3px dashed black;
+    display: block;
+}
+.wrap-list
+{
+    height: 81.5%;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+.list
+{
+    list-style-type: none;
+    color: rgba(0,0,0,0.85);
+}
+.list li
+{
+  width: 100%;
+    float: left;
+}
+input[type="checkbox"]
+{
+    position: relative;
+    top: 20px;
+    right: 16px;
+    
+ float: right;
+    
+}
+.grey
+{
+  background-color: rgba(50,50,50,0.3);
+}
+
+label
+{
+    font-family: 'Galada', cursive;
+    float: left;
+    padding: 15px;
+    width: 88%;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+input[type="checkbox"]:checked + label
+{
+    text-decoration: line-through;
+    opacity: 0.4;
+    text-decoration-color: darkred;
+  font-size: 1.4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

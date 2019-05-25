@@ -1,0 +1,70 @@
+.container .jumbotron img
+{
+    margin-left: -7px;
+    width: 100%;
+}
+.container .jumbotron h1
+{
+    font-weight: bolder;
+    background: linear-gradient(#8A2387,#E94057,#F27121);
+    color: transparent;
+    -webkit-background-clip:text;
+    font-family: 'Charm', cursive;
+    padding:20px;
+}
+.j h2
+{
+    font-size: 5em;
+  font-weight: bolder;
+    background: linear-gradient(to bottom right,#159957,#155799);
+    color: transparent;
+    -webkit-background-clip:text; 
+    padding: 10px;
+    font-family: 'Catamaran', sans-serif;
+}
+@media (min-width:769px) and (max-width:991px)
+{
+    body
+    {
+        background: radial-gradient(#1CB5E0,#000046)
+            no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+@media (min-width:992px) and (max-width:1199px)
+{
+    body
+    {
+        background: radial-gradient(#CB356B,#BD3F32)
+            no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+@media (min-width:1200px)
+{
+   body
+    {
+        background: radial-gradient(#0f9b0f,#000000)
+            no-repeat center center fixed;
+        background-size: cover;
+    } 
+}
+@media (max-width:768px)
+{
+   body
+    {
+        background: radial-gradient(#45a247,#283c86)
+            no-repeat center center fixed;
+        background-size: cover;
+    } 
+}
+
+
+
+
+
+
+
+
+
+

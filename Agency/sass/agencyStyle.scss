@@ -1,0 +1,623 @@
+@import "mixins";
+$rockingRed:(
+    red1:#E44236,
+    red2:#B83227,
+    red3:#D63031,
+    red4:#E84342,
+    red5:#FF3031,
+    red6:#BA2F16,
+    red7:#E71C23,
+    red8:#E8290B,
+    red9:#FF362E
+    );
+$beautifulBlue:(
+    blue1:#3498DB,
+    blue2:#2475B0,
+    blue3:#74B9FF,
+    blue4:#0A79DF,
+    blue5:#0ABDE3,
+    blue6:#25CCF7,
+    blue7:#4BCFFA,
+    blue8:#67E6DC,
+    blue9:#4834DF
+);
+$golfGreen:(
+    green1:#2ecc72,
+    green2:#26ae60,
+    green3:#6ab04c,
+    green4:#badc57,
+    green5:#43BE31,
+    green6:#10A881,
+    green7:#019031,
+    green8:#45CE30,
+    green9:#218F76,
+);
+$more:(
+    g1:#7B8788,
+    g2:#2C3335,
+    g3:#99AAAB,
+    g4:#616C6F,
+    g5:#2F363F,
+    g6:#A4B0BD,
+    g7:#E74292,
+    g8:#EA7773,
+    g9:#F4C724
+);
+$sizes:(
+    s1:0.8em,
+    s2:1em,
+    s3:1.3em,
+    s4:1.6em,
+    s5:2em,
+    s6:2.3em,
+    s7:2.5em
+);
+@function rr($a)
+{
+    @return map-get($rockingRed,$a);
+    
+}
+@function bb($a)
+{
+    @return map-get($beautifulBlue,$a);
+    
+}
+@function gg($a)
+{
+    @return map-get($golfGreen,$a);
+   
+}
+@function m($a)
+{
+    @return map-get($more,$a);
+   
+}
+@function sz($a)
+{
+    @return map-get($sizes,$a);
+   
+}
+@media (min-width:1200px) 
+{
+    body{
+        font-family: 'Catamaran', sans-serif;
+    .navbar-nav{
+        .nav-item{
+          padding: 7px;
+            font-size: sz(s2);
+            margin-top: 10px;
+            text-align: center;
+            .btn-outline-danger{
+                margin-top: -7px;
+            }
+            
+        }
+        
+       
+    }
+        .carousel-item{
+            width: 100%;
+            height: 640px;
+            img{
+             width: 100%;
+            height: 640px;   
+            }
+        }
+        section{
+            .col-12{
+                .qw
+                {
+            @include jb();
+                    color: m(g9);
+                    font-size: sz(s5);
+                    background:linear-gradient(to right,#3C3B3F,#605C3C);
+                    width: 100%; 
+            }
+            }
+            .col-md-4,.col-12{
+                .qe{
+                    @include ja();
+                    background: linear-gradient(#00b09b,#96c93d);
+                    color: transparent;
+                    -webkit-background-clip:text;
+                }
+                p{
+                    font-size: sz(s2); 
+                    padding: 20px 0;
+                    width: 370px;
+                    font-weight: bolder;
+                }
+            }
+            .eve{
+                @include bj();
+                .o{
+                    margin: 7px auto;
+                    height: 5px;
+                    background-color: rr(red5);
+                }
+                .w{
+                    margin: 10px auto;
+                }
+            }
+            .ev{
+                @include aj();
+            }
+            .am{
+                .btn-block{
+                    padding: 7px 50px;
+                    border-radius: 30px;
+                    margin-bottom: 50px;
+                    font-size: sz(s3);
+                    font-weight: bolder;
+                    font-family: 'Assistant', sans-serif;
+                    
+                }
+            }
+            .media{
+                border-bottom: 1px solid lightgrey;
+                padding: 25px;
+            }
+            .cd{
+                font-weight: bolder;
+               .card-text {
+                   font-family: 'Catamaran', sans-serif;
+                font-size: sz(s3);
+                   color: m(g7);
+                   
+                }
+                .card-title{
+                    font-family: 'Acme', sans-serif;
+                    font-size: sz(s4);
+                    margin-bottom: 20px;
+                    color: bb(blue9);
+                }
+            } 
+               #r{
+                background: url(../images/rainy.jpg)
+                    no-repeat center center fixed;
+                background-size: cover;
+                height: 348px;
+            }
+            
+        }
+        }
+    }
+
+@media (min-width:1068px) and (max-width:1200px) 
+{
+    body{
+        font-family: 'Catamaran', sans-serif;
+    .navbar-nav{
+        .nav-item{
+          padding: 5px;
+            font-size: 0.9em;
+            margin-top: 10px;
+            text-align: center;
+            .btn-outline-danger{
+                margin-top: -7px;
+            }
+            
+        }
+       
+    }
+        .carousel-item{
+            width: 100%;
+            height: 630px;
+            img{
+             width: 100%;
+            height:630px;   
+            }
+        }
+        section{
+            .col-12{
+                .qw
+                {
+                    
+            @include jb();
+                    color: m(g7);
+                    font-size: sz(s5);
+                background:linear-gradient(to right,#a8ff78,#78ffd6);
+                    width: 100%; 
+            }
+            }
+            .col-md-4,.col-12{
+                .qe{
+                    @include ja();
+                    background: linear-gradient(#800080,#ffc0cb);
+                    color: transparent;
+                    -webkit-background-clip:text;
+                }
+                p{
+                    font-size: sz(s2); 
+                    padding: 20px 0;
+                    width: 300px;
+                    font-weight: bolder;
+                }
+            }
+            .eve{
+                @include bj();
+                .o{
+                    margin: 7px auto;
+                    height: 5px;
+                    background-color: rr(red5);
+                }
+                .w{
+                    margin: 10px auto;
+                }
+            }
+            .ev{
+                @include aj();
+            }
+            .am{
+                .btn-block{
+                    padding: 7px 50px;
+                    border-radius: 30px;
+                    margin-bottom: 50px;
+                    font-size: sz(s3);
+                    font-weight: bolder;
+                    font-family: 'Assistant', sans-serif;
+                    
+                }
+            }
+            .media{
+                border-bottom: 1px solid lightgrey;
+                padding: 25px;
+            }
+            .cd{
+                font-weight: bolder;
+               .card-text {
+                   font-family: 'Catamaran', sans-serif;
+                font-size: sz(s3);
+                   color: m(g7);
+                   
+                }
+                .card-title{
+                    font-family: 'Acme', sans-serif;
+                    font-size: sz(s4);
+                    margin-bottom: 20px;
+                    color: bb(blue9);
+                }
+            }
+//            #r{
+//                background: url(../images/rainy.jpg)
+//                    no-repeat center center fixed;
+//                background-size: cover;
+//                height: 348px;
+//            }
+        }
+}
+
+}
+
+@media (min-width:991px) and (max-width:1068px) 
+{
+    body{
+        font-family: 'Catamaran', sans-serif;
+    .navbar-nav{
+        .nav-item{
+          padding: 0px;
+            font-size: 0.9em;
+            margin-top: 10px;
+            text-align: center;
+            .btn-outline-danger{
+                margin-top: -7px;
+            }
+            
+        }
+       
+    }
+        .carousel-item{
+            width: 100%;
+            height: 630px;
+            img{
+             width: 100%;
+            height: 630px;   
+            }
+        }
+        section{
+            .col-12{
+                .qw
+                {
+            @include jb();
+                    color: gg(green1);
+                    font-size: sz(s5);
+                  background:linear-gradient(to right,#FFEFBA,#FFFFFF);
+                    width: 100%; 
+            }
+            }
+            .col-md-4,.col-12{
+                .qe{
+                    @include ja();
+                    background: linear-gradient(#ee0979,#ff6a00);
+                    color: transparent;
+                    -webkit-background-clip:text;
+                }
+                p{
+                    font-size: sz(s2); 
+                    padding: 20px 0;
+                    width: 270px;
+                    font-weight: bolder;
+                }
+            }
+            .eve{
+                @include bj();
+                .o{
+                    margin: 7px auto;
+                    height: 5px;
+                    background-color: rr(red5);
+                }
+                .w{
+                    margin: 10px auto;
+                }
+            }
+            .ev{
+                @include aj();
+            }
+            .am{
+                .btn-block{
+                    padding: 7px 50px;
+                    border-radius: 30px;
+                    margin-bottom: 50px;
+                    font-size: sz(s2);
+                    font-weight: bolder;
+                    font-family: 'Assistant', sans-serif;
+                    
+                }
+            }
+            .media{
+                border-bottom: 1px solid lightgrey;
+                padding: 25px;
+            }
+            .cd{
+                font-weight: bolder;
+               .card-text {
+                   font-family: 'Catamaran', sans-serif;
+                font-size: sz(s3);
+                   color: m(g7);
+                   
+                }
+                .card-title{
+                    font-family: 'Acme', sans-serif;
+                    font-size: sz(s4);
+                    margin-bottom: 20px;
+                    color: bb(blue9);
+                }
+            }
+//            #r{
+//                background: url(../images/conhall5.jpg)
+//                    no-repeat center center fixed;
+//                background-size: cover;
+//                height: 100%;
+//            }
+        }
+}
+    
+}
+@media (min-width:576px) and (max-width:991px) 
+{
+    body{
+        font-family: 'Catamaran', sans-serif;
+    .navbar-nav{
+        .nav-item{
+          padding: 0px;
+            font-size: sz(s2);
+            margin-top: 10px;
+            text-align: center;
+            .btn-outline-danger{
+                margin-top: -7px;
+            }
+            
+        }
+       
+    }
+        .carousel-item{
+            width: 100%;
+            height: 560px;
+            img{
+             width: 100%;
+            height: 560px;   
+            }
+        }
+        section{
+            .col-12{
+                .qw
+                {
+            @include jb();
+             color: bb(blue5);
+                    font-size: sz(s5);
+                 background:linear-gradient(to right,#FF416C,#FF4B2B);
+                    width: 100%;   
+            }
+            }
+            .col-md-4,.col-12{
+                .qe{
+                    @include ja();
+                    background: linear-gradient(#FDC830,#F37335);
+                    color: transparent;
+                    -webkit-background-clip:text;
+                }
+                p{
+                    font-size: sz(s2); 
+                    padding: 20px 0;
+                    width: 560px;
+                    font-weight: bolder;
+                }
+            }
+            .eve{
+                @include bj();
+                .o{
+                    margin: 7px auto;
+                    height: 5px;
+                    background-color: rr(red5);
+                }
+                .w{
+                    margin: 10px auto;
+                }
+            }
+            .ev{
+                @include aj();
+            }
+            .am{
+                .btn-block{
+                    padding: 7px 50px;
+                    border-radius: 30px;
+                    margin-bottom: 50px;
+                    font-size: sz(s2);
+                    font-weight: bolder;
+                    font-family: 'Assistant', sans-serif;
+                    
+                }
+            }
+            .media{
+                border-bottom: 1px solid lightgrey;
+                padding: 15px;
+            }
+            .cd{
+                font-weight: bolder;
+               .card-text {
+                   font-family: 'Catamaran', sans-serif;
+                font-size: sz(s3);
+                   color: m(g7);
+                   
+                }
+                .card-title{
+                    font-family: 'Acme', sans-serif;
+                    font-size: sz(s4);
+                    margin-bottom: 20px;
+                    color: bb(blue9);
+                }
+            }
+//            #r{
+//                background: url(../images/rainy.jpg)
+//                    no-repeat center center fixed;
+//                background-size: cover;
+//                height: 348px;
+//            }
+        }
+}
+    
+}
+@media (max-width:576px) 
+{
+    body{
+        font-family: 'Catamaran', sans-serif;
+    .navbar-nav{
+        .nav-item{
+          padding: 0px;
+            font-size: sz(s2);
+            margin-top: 10px;
+            text-align: center;
+            .btn-outline-danger{
+                margin-top: -7px;
+            }
+            
+        }
+       
+    }
+        .carousel-item{
+            width: 100%;
+            height: 560px;
+            img{
+             width: 100%;
+            height: 560px;   
+            }
+        }
+        section{
+            .col-12{
+                .qw
+                {
+            @include jb();
+                    font-size: sz(s4);
+                    color: rr(red7);
+                    background:linear-gradient(to right,#C6FFDD,#FBD786,#f7797d);
+                    width: 100%;
+                    
+            }
+            }
+            .col-md-4,.col-12{
+                .qe{
+                    @include ja();
+                     background: linear-gradient(#f7ff00,#db36a4);
+                    color: transparent;
+                    -webkit-background-clip:text;
+                }
+                p{
+                    font-size: sz(s2); 
+                    padding: 20px 0;
+                    width: 300px;
+                    font-weight: bolder;
+                }
+            }
+            .eve{
+                @include bj();
+                .o{
+                    margin: 7px auto;
+                    height: 5px;
+                    background-color: rr(red5);
+                }
+                .w{
+                    margin: 10px auto;
+                }
+            }
+            .ev{
+                @include aj();
+            }
+            .am{
+                .btn-block{
+                    padding: 7px 20px;
+                    border-radius: 30px;
+                    margin-bottom: 50px;
+                    font-size: sz(s2);
+                    font-weight: bolder;
+                    font-family: 'Assistant', sans-serif;
+                    
+                }
+            }
+            .media{
+                border-bottom: 1px solid lightgrey;
+                padding: 15px;
+            }
+            .cd{
+                font-weight: bolder;
+               .card-text {
+                   font-family: 'Catamaran', sans-serif;
+                font-size: sz(s3);
+                   color: m(g7);
+                   
+                }
+                .card-title{
+                    font-family: 'Acme', sans-serif;
+                    font-size: sz(s4);
+                    margin-bottom: 20px;
+                    color: bb(blue9);
+                }
+            }
+//            #r{
+//                background: url(../images/rainy.jpg)
+//                    no-repeat center center fixed;
+//                background-size: cover;
+//                height: 348px;
+//            }
+        }
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

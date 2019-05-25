@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/pokemonStyle.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCpDup_EJnz29N5nigJHY6EwIUkrXz1QK5lTFzj9NS-miYr46U">
+<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/parallax.js"></script>
+<title>Pick Up Pokemon</title>
+</head>
+<body>
+
+
+
+
+<div class="navbar-wrapper">
+    <div class="container"><nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Pokemon</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About Pokemons</a></li>
+        <li><a href="#">Catch Pokemons</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Locations <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">California</a></li>
+            <li><a href="#">London</a></li>
+            <li><a href="#">Mumbai</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="dropdown-header">Upcoming Gigs</li>
+            <li class="disabled"><a href="#">Brazil</a></li>
+            <li class="disabled"><a href="#">China</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right ">
+        <li><button class="btn btn-default dropdown-toggle btn-success animated infinite swing" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up<span class="caret e"></span></button><ul id="login" class="dropdown-menu">
+<li>
+    <div class="row">
+    <div class="col-md-12">
+<div class="social-buttons"><a href="" class="btn btn-fb btn-danger btn-lg">
+        <i class="fa fa-google-plus" aria-hidden="true"></i> Google Plus
+</a><a href="" class="btn btn-tw btn-info btn-lg">
+        <i class="fa fa-twitter"></i> Twitter
+</a>
+                       
+                       
+                       
+                       
+                       </div>
+                        
+                        
+                        
+                        </div>
+                    </div>
+                </li>
+            </ul></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav></div>
+</div>
+
+
+
+
+
+<div id="mycarousel" class="carousel slide" data-ride="carousel">
+ 
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/slide1.jpeg" alt="First Slide">
+      <div class="carousel-caption">
+       <h1>Some Headline</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+       <a class="btn btn-lg btn-danger" href="">Learn More</a> 
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/slide2.jpg" alt="Second Slide">
+      <div class="carousel-caption">
+       <h1>Some Headline</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+       <a class="btn btn-lg btn-danger" href="">Learn More</a> 
+      </div>
+    </div>
+    
+    <div class="item">
+      <img src="images/slide3.jpeg" alt="Third Slide">
+      <div class="carousel-caption">
+       <h1>Some Headline</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+       <a class="btn btn-lg btn-danger" href="">Learn More</a> 
+      </div>
+    </div>
+    
+  </div>
+
+ 
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+
+<div class="container team">
+   <div class="row">
+       <div class="col-lg-12">
+           <h1>TEAM MEMBERS ARE HERE</h1>
+       </div>
+   </div>
+    <div class="row"  data-parallax="scroll" data-image-src="">
+        <div class="col-lg-4"><img src="images/boy.jpg" alt="Unavailable" class="img-circle animated wobble" width="250" height="250">
+        <h2>Team Member 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, architecto atque? Quidem alias aperiam doloremque magni fugiat expedita sapiente voluptates illo. Molestiae iusto itaque temporibus quas aperiam eos, suscipit, blanditiis.</p>
+        <a href="" class="btn btn-primary btn-lg animated rollIn">Sign Up</a></div>
+        <div class="col-lg-4"><img src="images/boy.jpg" alt="Unavailable" class="img-circle animated wobble" width="250" height="250">
+        <h2>Team Member 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, architecto atque? Quidem alias aperiam doloremque magni fugiat expedita sapiente voluptates illo. Molestiae iusto itaque temporibus quas aperiam eos, suscipit, blanditiis.</p>
+        <a href="" class="btn btn-primary btn-lg animated rollIn">Sign Up</a></div>
+        <div class="col-lg-4"><img src="images/boy.jpg" alt="Unavailable" class="img-circle animated wobble" width="250" height="250">
+        <h2>Team Member 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, architecto atque? Quidem alias aperiam doloremque magni fugiat expedita sapiente voluptates illo. Molestiae iusto itaque temporibus quas aperiam eos, suscipit, blanditiis.</p>
+        <a href="" class="btn btn-primary btn-lg animated rollIn">Sign Up</a></div>
+    </div>
+</div>
+
+
+
+
+
+<div class="container content">
+    <div class="row">
+        
+        <div class="col-md-7">
+            <h2 class="content-heading">First heading goes here.
+            <span class="text-muted">This looks great</span></h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur voluptatem autem laborum impedit accusamus laudantium dignissimos consectetur? Rerum iusto suscipit unde accusantium est, placeat molestias a ut facilis in velit.</p>
+            
+        </div>
+        <div class="col-md-5">
+            <img src="images/paying-kid.jpg" alt="Unavailable" class="content-image img-responsive center-block" 
+            width="350" height="500">
+        </div>
+    </div>
+    <div class="row" data-parallax="scroll" data-image-src="">
+       <div class="col-md-5">
+            <img src="images/paying-kid.jpg" alt="Unavailable" class="content-image img-responsive center-block" 
+            width="350" height="500">
+        </div>
+        
+        <div class="col-md-7">
+            <h2 class="content-heading">First heading goes here.
+            <span class="text-muted">This looks great</span></h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur voluptatem autem laborum impedit accusamus laudantium dignissimos consectetur? Rerum iusto suscipit unde accusantium est, placeat molestias a ut facilis in velit.</p>
+            
+        </div>
+        
+    </div>
+    <div class="row" data-parallax="scroll" data-image-src="">
+        
+        <div class="col-md-7">
+            <h2 class="content-heading">First heading goes here.
+            <span class="text-muted">This looks great</span></h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur voluptatem autem laborum impedit accusamus laudantium dignissimos consectetur? Rerum iusto suscipit unde accusantium est, placeat molestias a ut facilis in velit.</p>
+            
+        </div>
+        <div class="col-md-5">
+            <img src="images/paying-kid.jpg" alt="Unavailable" class="content-image img-responsive center-block" 
+            width="350" height="500">
+        </div>
+    </div>
+</div>
+
+	
+	
+	
+
+<footer>
+<p>Copyright &#64; <span id="dt"></span><a href="../../index.html" title="See Portfolio"> ans07.5gbfree.com </a></p>
+</footer>
+<script>
+    var d=new Date;
+    document.getElementById("dt").innerHTML=d.getFullYear();
+    </script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script>
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,461 @@
+.container-fluid 
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    background-color: black;
+    opacity: 0.8;
+}
+.navbar-brand 
+{
+    color: white;
+    font-size: 2em;
+   padding-left: 70px;
+    margin-top: 7px;
+}
+.navbar-nav li a:hover,a:active
+{
+    color: black;
+}
+.navbar-nav li a 
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    line-height: 20px;
+    color: white;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.navbar-right 
+{
+    float: right;
+    margin-right: -15px;
+   padding: 10px;
+    font-size: 1.2em;
+}
+.carousel-inner
+{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 650px;
+    margin-bottom: 0px;
+}
+.carousel-inner .item img
+{
+    height: 650px;
+    width: 100%;
+}
+.carousel-inner .item .carousel-caption
+{
+    position: absolute;
+    top: 250px;
+    padding-top: 0;
+    
+}
+h1 
+{
+    font-family: 'Bree Serif', serif;
+    color: lightgrey;
+    font-size: 4.3em;
+margin-top: 0;
+    color:#877a4f;
+}
+p
+{
+ font-family: 'Catamaran', sans-serif;
+    margin-bottom: 0;
+    font-size: 2.3em;
+  color: white;
+}
+.carousel-caption .btn 
+{
+    margin-top: 100px;
+    text-shadow: none;
+    width: 200px;
+    border-radius: 20px;
+    padding-left: 20px;
+   
+}
+.jumbotron
+{
+    height: 220px;
+    margin-bottom: 100px;
+    border-bottom: 2px solid #e2e2e2;
+}
+.jumbotron .container h1
+{
+    font-weight: bolder;
+    text-align: center;
+   font-size: 3.5em;
+    font-family: 'Fjalla One', sans-serif;
+}
+.jumbotron .container p
+{
+    padding: 30px;
+    text-align: center;
+    font-size: 2.5em;
+    color: grey;
+    font-family: 'Lobster', cursive;
+}
+.col-lg-4 img
+{
+    margin-top: 20px;
+    width:171px ;
+    height:165px ;
+}
+.col-lg-6 h3
+{
+    font-size: 2.7em;
+    text-align: center;
+    color: #696b6e;
+    margin-top: 80px;
+    margin-left: -35px;
+}
+.col-lg-6 p
+{
+    color: #696b6e;
+    font-size: 1.3em;
+    padding: 20px;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.col-lg-6 button
+{
+    width: 240px;
+    text-align: center;
+    padding: 10px 60px;
+    border-radius: 30px;
+    font-size: 1.5em;
+    background-color: #87856e;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+.container
+{
+    margin-bottom: 70px;
+    
+}
+.r
+{
+    margin-bottom: 70px;
+}
+.r .col-lg-12
+{
+    margin-left: 14px;
+    width: 98%;
+    background-color: #474d4b;
+    padding: 50px;
+    border: 20px solid #5f6865;
+}
+.r .col-lg-12 h2
+{
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Catamaran', sans-serif;
+}
+.a 
+{
+    padding-top: 50px;
+    margin-bottom: 50px;
+  padding-bottom:50px;  
+  border-top: 2px solid #e2e2e2;  
+}
+.a .col-lg-12 h2
+{
+    font-weight: bolder;
+    text-align: center;
+    color: #505654;
+    font-size: 3em;
+   padding-left: 50px;
+}
+.a .col-lg-12 p
+{
+    
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    color: #8f9995 ;
+    font-family: 'Lobster', cursive;
+}
+.b .col-lg-4 img
+{
+    width:371px ;
+    height:215px ;
+}
+.row .c
+{
+    background: #6b6957;
+}
+.col-lg-3{
+    padding: 70px 0;
+}
+.row .d
+{
+    background-color: #565335;
+}
+.row .e
+{
+    background-color: #474d4b;
+}
+.row .f
+{
+    background-color: #b0a377;
+s}
+.row .col-lg-3 h3
+{
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
+.ca .col-lg-6
+{
+    margin-bottom: 0px;
+}
+.ca .col-lg-6 img
+{
+    width: 673px;
+    height: 630px;
+}
+.ca .col-lg-6 h2
+{
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 150px;
+    color: #474d4b;
+}
+.ca .col-lg-6 p
+{
+    font-size: 1.5em;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.ca .col-lg-6 button
+{
+    border-radius: 0;
+    width: 400px;
+    padding: 20px;
+    font-size: 2.2em;
+    margin-top: 90px;
+    margin-left: 120px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.ca .he
+{
+    height: 630px;
+}
+.ca #wi
+{
+    padding-left: 0;
+}
+.o
+{
+    margin-bottom: 80px;
+}
+.o .t
+{
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2em;
+    background-color: #9a8c5a;
+}
+.o .u
+{
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2em;
+    background-color: #474d4b;
+}
+.o .u:hover
+{
+    background-color: #363a39;
+}
+.o .t:hover
+{
+    background-color: #756c4f;
+}
+.w
+{
+    margin-bottom: 100px;
+}
+.col-lg-12 h2
+{
+    font-weight: bolder;
+    text-align: center;
+    color: #505654;
+    font-size: 3em;
+   padding-left: 50px;
+}
+ .col-lg-12 p
+{
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 30px;
+    font-size: 2.5em;
+    color: #8f9995 ;
+    font-family: 'Catamaran', sans-serif;
+}
+.w .col-lg-4 img
+{
+    width: 350px;
+    height:230px ;
+}
+.w .col-lg-4 p
+{
+    text-align:center;
+    padding-top: 0px;
+    font-size: 1.2em;
+    color: #8f9995 ;
+    font-family: 'Catamaran', sans-serif;
+}
+.w .col-lg-4 h3
+{
+    text-align:center;
+    padding-top: 20px;
+    font-size: 2em;
+}
+.w .col-lg-4 button
+{
+ margin-left: 120px; 
+    margin-bottom: 30px;
+}
+
+.ro .col-lg-4 img
+{
+    position: absolute;
+    z-index: 1;
+    width: 370px;
+    height: 475px;
+}
+.ro .col-lg-4 p
+{
+    position: absolute;
+    z-index: 2;
+    margin-top: 460px;
+    margin-left: 25px;
+    padding: 15px 70px;
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    width: 320px;
+    background-color: #6b6957;
+    margin-bottom: 100px;
+}
+.ro .col-lg-4 p:hover
+{
+    width: 370px;
+    margin-left: 0px;
+    background-color: #474d4b;
+    
+}
+.pr .col-lg-12
+{
+    height: 200px;
+    width: 100%;
+    margin-top: 700px;
+    
+}
+.pr .col-lg-12 p
+{
+    font-size: 2.5em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+margin-top: 60px;
+}
+footer
+{
+    height: 100%;
+    margin-top: 160px;
+    background-color: #1b1b1b;
+}
+footer .input-group
+{
+  margin-top: 80px;  
+    margin-left: 20px;
+    margin-right: 20px;
+}
+footer p
+{
+    font-size: 1.9em;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 30px;
+    margin-bottom: 50px;
+
+}
+footer .row
+{
+    margin-top: 50px;
+}
+
+footer h5
+{
+    width: 200px;
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 30px;
+}
+footer ul
+{
+    
+    color: white;
+    list-style-type: none;
+}
+footer ul li
+{
+ padding: 10px 0;
+    margin-left: -40px;
+    font-size: 1.1em;
+}
+footer .fr .col-lg-2 a:hover
+{
+    color: white;
+    
+}
+footer .fr .col-lg-2 a
+{
+    text-align: center;
+    font-size: 4em;
+   color: #b0a377;
+    padding: 20px 40px;
+}
+footer .cp .col-lg-12
+{
+    text-align: center;
+    height: 80px;
+    color: white;
+    font-size: 0.5em;
+    background-color: #252525;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

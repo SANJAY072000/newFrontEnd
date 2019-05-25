@@ -1,0 +1,134 @@
+body
+{
+    padding-bottom: 20px;
+    color: #5a5a5a;
+font-family: 'Catamaran', sans-serif;
+}
+.navbar-wrapper
+{
+    position: absolute;
+   top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+.btn-group-lg>.btn, .btn-lg {
+    margin: 15px;
+margin-left: 40px;}
+.btn-group-lg>.btn, .btn-lg {
+    margin: 20px 20px;}
+.fa-user-plus:before {
+    margin-right: 6px;}
+.btn .caret {
+    margin-left: 6px;}
+.btn-success {
+    margin-top: 10px;}
+.carousel
+{
+    height: 500px;
+    margin-bottom: 50px;
+}
+.carousel .item
+{
+    height: 500px;
+}
+.carousel-inner .carousel-caption p
+{
+    font-size: 1.2em;
+   background-color: rgba(50,50,50,0.8);
+    color: white;
+   padding-top:  20px;
+    padding-bottom: 10px;
+    border-radius: 0 0 15px 15px;
+}
+.carousel-inner .carousel-caption h1
+{
+    border-radius: 15px 15px 0 0;
+    padding-top: 10px;
+    background-color: rgba(50,50,50,0.8);
+    font-size: 3.5em;
+    color: white;
+/*    border-radius: 20px;*/
+    margin-bottom: 0;
+    
+}
+.carousel-inner .item img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 100%;
+}
+.navbar-wrapper .container
+{
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.navbar-wrapper .navbar
+{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.team .col-lg-4
+{
+     border-top: 2px dashed;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 80px;
+    padding-top: 50px;
+}
+.team .row .col-lg-12{
+    text-align: center;
+    padding-top: -10px;
+    padding-bottom: 40px;
+}
+.team .row .col-lg-12 h1{
+    text-align: center;
+    font-size: 3em;
+}
+footer
+{
+    border-top: 2px dashed;
+ padding: 30px;
+    margin-top: 70px;
+  text-align: center;  
+}
+footer p
+{
+    margin-bottom: 0;
+    font-size: 1.3em;
+    padding-top: 30px;
+}
+
+
+.team h2
+{
+    color: rgba(50,50,50,0.8);
+}
+.team p
+{
+    font-size: 1.5em;
+    text-align: center;
+}
+.content .col-md-7
+{
+    padding-left: 50px;
+    text-align: center;
+    padding-top: 80px;
+  
+}
+.content .row{
+    padding-top: 75px;
+}
+.content{
+    margin-bottom: 30px;
+    border-top: 2px dashed;
+  
+}
+
+
+
+
+

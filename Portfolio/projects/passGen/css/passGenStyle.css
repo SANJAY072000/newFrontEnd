@@ -1,0 +1,71 @@
+body
+{
+   background: radial-gradient(#3498db,#2c3e50)
+       no-repeat center center fixed;
+    background-size: cover;
+}
+.container
+{
+    width: 600px;
+    margin: 200px auto;
+    font-size: 3em;
+}
+.out
+{
+    margin-left: -200px;
+    margin-bottom: 10px;
+    width: 1000px;
+    text-align: center;
+    color: #f63;
+}
+.mybtn
+{
+    border:0;
+    background: linear-gradient(#56ab2f,#a8e063);
+    border-radius: 60px;
+    padding: 20px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+.mybtn:hover
+{
+    border:0;
+    background: linear-gradient(#a8e063,#56ab2f);
+    border-radius: 60px;
+    padding: 20px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+.pass
+{
+    background-color: #f63;
+    width: 390px;
+    float: left;
+    font-size: 0.7em;
+    color: white;
+    margin-left: 0;
+    padding: 20px;
+}
+.in
+{
+    padding: 9px;
+    float: right;
+    text-align: center;
+    color: #f63;
+}
+
+@media (max-width:768px){
+    body{
+       background: radial-gradient(#C6426E,#642B73)
+       no-repeat center center fixed;
+    background-size: cover; 
+    }
+}
+    @media (min-width:768px) and (max-width:970px){
+    body{
+       background: radial-gradient(#cbcaa5,#334d50)
+       no-repeat center center fixed;
+    background-size: cover; 
+    }
+    
+}

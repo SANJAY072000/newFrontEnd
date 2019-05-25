@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/firstdesignStyle.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+<link rel="shortcut icon" href="data:image/jpeg;base64,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">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link href="https://fonts.googleapis.com/css?family=Anton|Catamaran|Cinzel|Roboto|Roboto+Condensed" rel="stylesheet">
+	<title>First Design</title>
+</head>
+<body id="css-zen-garden">
+<div class="page-wrapper">
+
+	<section class="intro" id="zen-intro">
+		<header role="banner">
+			<h1>Lorem ipsum dolor</h1>
+			<h2>loee djds jsjsk<abbr title="Cascading Style Sheets">jksd</abbr> Desjfk</h2>
+		</header>
+
+		<div class="summary" id="zen-summary" role="article">
+			<p style=" border-bottom: 1px solid red;padding-bottom: 30px;">A demonstra of what can be accompli <abbr title="Cascading Style Sheets">jfg</abbr>-dhfj djdks. Load the page on internet for the betterment of all.</p>
+			<p style="margin-top:  40px;">sdhjsd sdksfkhs sjdks<a href="/examples/index" title="This page's source HTML code, not to be modified." style="color: white;">hjdl fggle</a> and <a href="/examples/style.css" title="This page's sample CSS, the file you may modify." style="color: white;">djd fggle</a></p>
+		</div>
+
+		<div class="preamble" id="zen-preamble" role="article">
+			<h3>The Road to Enlightenment</h3>
+			<p>Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible <abbr title="Document Object Model">DOM</abbr>s, broken <abbr title="Cascading Style Sheets">CSS</abbr> support, and abandoned browsers.</p>
+			<p>We must clear the mind of the past. Web enlightenment has been achieved thanks to the tireless efforts of folk like the <abbr title="World Wide Web Consortium">W3C</abbr>, <abbr title="Web Standards Project">WaSP</abbr>, and the major browser creators.</p>
+			<p>The CSS Zen Garden invites you to relax and meditate on the important lessons of the masters. Begin to see with clarity. Learn to use the time-honored techniques in new and invigorating fashion. Become one with the web.</p>
+		</div>
+	</section>
+
+	<div class="main supporting" id="zen-supporting" role="main">
+		<div class="explanation" id="zen-explanation" role="article">
+			<h3>So What is This About?</h3>
+			<p>There is a continuing need to show the power of <abbr title="Cascading Style Sheets">CSS</abbr>. The Zen Garden aims to excite, inspire, and encourage participation. To begin, view some of the existing designs in the list. Clicking on any one will load the style sheet into this very page. The <abbr title="HyperText Markup Language">HTML</abbr> remains the same, the only thing that has changed is the external <abbr title="Cascading Style Sheets">CSS</abbr> file. Yes, really.</p>
+			<p><abbr title="Cascading Style Sheets">CSS</abbr> allows complete and total control over the style of a hypertext document. The only way this can be illustrated in a way that gets people excited is by demonstrating what it can truly be, once the reins are placed in the hands of those able to create beauty from structure. Designers and coders alike have contributed to the beauty of the web; we can always push it further.</p>
+		</div>
+
+		<div class="participation" id="zen-participation" role="article">
+			<h3>Participation</h3>
+			<p>Strong visual design has always been our focus. You are modifying this page, so strong <abbr title="Cascading Style Sheets">CSS</abbr> skills are necessary too, but the example files are commented well enough that even <abbr title="Cascading Style Sheets">CSS</abbr> novices can use them as starting points. Please see the <a href="http://www.mezzoblue.com/zengarden/resources/" title="A listing of CSS-related resources" style="color: white;"><abbr title="Cascading Style Sheets" style="color: white;">CSS</abbr> Resource Guide</a> for advanced tutorials and tips on working with <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+			<p>You may modify the style sheet in any way you wish, but not the <abbr title="HyperText Markup Language">HTML</abbr>. This may seem daunting at first if you&#8217;ve never worked this way before, but follow the listed links to learn more, and use the sample files as a guide.</p>
+			<p>Download the sample <a href="/examples/index" title="This page's source HTML code, not to be modified." style="color: white;">HTML</a> and <a href="/examples/style.css" title="This page's sample CSS, the file you may modify." style="color: white;">CSS</a> to work on a copy locally. Once you have completed your masterpiece (and please, don&#8217;t submit half-finished work) upload your <abbr title="Cascading Style Sheets">CSS</abbr> file to a web server under your control. <a href="http://www.mezzoblue.com/zengarden/submit/" title="Use the contact form to send us your CSS file" style="color: white;">Send us a link</a> to an archive of that file and all associated assets, and if we choose to use it we will download it and place it on our server.</p>
+		</div>
+
+		<div class="benefits" id="zen-benefits" role="article">
+			<h3>Benefits</h3>
+			<p>Why participate? For recognition, inspiration, and a resource we can all refer to showing people how amazing <abbr title="Cascading Style Sheets">CSS</abbr> really can be. This site serves as equal parts inspiration for those working on the web today, learning tool for those who will be tomorrow, and gallery of future techniques we can all look forward to.</p>
+		</div>
+
+		<div class="requirements" id="zen-requirements" role="article">
+			<h3>Requirements</h3>
+			<p>Where possible, we would like to see mostly <abbr title="Cascading Style Sheets, levels 1 and 2">CSS 1 &amp; 2</abbr> usage. <abbr title="Cascading Style Sheets, levels 3 and 4">CSS 3 &amp; 4</abbr> should be limited to widely-supported elements only, or strong fallbacks should be provided. The CSS Zen Garden is about functional, practical <abbr title="Cascading Style Sheets">CSS</abbr> and not the latest bleeding-edge tricks viewable by 2% of the browsing public. The only real requirement we have is that your <abbr title="Cascading Style Sheets">CSS</abbr> validates.</p>
+            <p>Luckily, designing this way shows how well various browsers have implemented <abbr title="Cascading Style Sheets">CSS</abbr> by now. </p>
+			<p>This is a learning exercise as well as a demonstration. You retain full copyright on your graphics (with limited exceptions, see :-</p>
+		</div>
+
+		
+
+	</div>
+
+
+	<aside class="sidebar" role="complementary">
+		<div class="wrapper">
+
+			<div class="design-selection" id="design-selection">
+				<h3 class="select">Select a Design:</h3>
+				<nav role="navigation">
+					<ul class="a">
+					<li>
+						<a href="/221/" class="design-name" style="color: rgb(50,50,50);">Mid Century Modern</a> by						<a href="http://andrewlohman.com/" class="designer-name" style="color: rgb(50,50,50);">Andrew Lohman</a>
+					</li>					<li>
+						<a href="/220/" class="design-name" style="color: rgb(50,50,50);">Garments</a> by						<a href="http://danielmall.com/" class="designer-name" style="color: rgb(50,50,50);">Dan Mall</a>
+					</li>					<li>
+						<a href="/219/" class="design-name" style="color: rgb(50,50,50);">Steel</a> by						<a href="http://steffen-knoeller.de" class="designer-name" style="color: rgb(50,50,50);">Steffen Knoeller</a>
+					</li>					<li>
+						<a href="/218/" class="design-name" style="color: rgb(50,50,50);">Apothecary</a> by						<a href="http://trentwalton.com" class="designer-name" style="color: rgb(50,50,50);">Trent Walton</a>
+					</li>					<li>
+						<a href="/217/" class="design-name" style="color: rgb(50,50,50);">Screen Filler</a> by						<a href="http://elliotjaystocks.com/" class="designer-name" style="color: rgb(50,50,50);">Elliot Jay Stocks</a>
+					</li>					<li>
+						<a href="/216/" class="design-name" style="color: rgb(50,50,50);">Fountain Kiss</a> by						<a href="http://jeremycarlson.com" class="designer-name" style="color: rgb(50,50,50);">Jeremy Carlson</a>
+					</li>					<li>
+						<a href="/215/" class="design-name" style="color: rgb(50,50,50);">A Robot Named Jimmy</a> by						<a href="http://meltmedia.com/" class="designer-name" style="color: rgb(50,50,50);">meltmedia</a>
+					</li>					<li>
+						<a href="/214/" class="design-name" style="color: rgb(50,50,50);">Verde Moderna</a> by						<a href="http://www.mezzoblue.com/" class="designer-name" style="color: rgb(50,50,50);">Dave Shea</a>
+					</li>					</ul>
+				</nav>
+			</div>
+
+			<div class="design-archives" id="design-archives">
+				<h3 class="archives">Archives:</h3>
+				<nav role="navigation">
+					<ul>
+						<li class="next">
+							<a href="/214/page1" style="color: rgb(50,50,50);">
+								Next Designs <span class="indicator">&rsaquo;</span>
+							</a>
+						</li>
+						<li class="viewall">
+							<a href="http://www.mezzoblue.com/zengarden/alldesigns/" title="View every submission to the Zen Garden." style="color: rgb(50,50,50);">
+								View All Designs							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="zen-resources" id="zen-resources">
+				<h3 class="resources">Resources:</h3>
+				<ul>
+					<li class="view-css">
+						<a  style="color: rgb(50,50,50);"href="style.css" title="View the source CSS file of the currently-viewed design.">
+							View This Design&#8217;s <abbr title="Cascading Style Sheets">CSS</abbr>						</a>
+					</li>
+					<li class="css-resources">
+						<a  style="color: rgb(50,50,50);"href="http://www.mezzoblue.com/zengarden/resources/" title="Links to great sites with information on using CSS.">
+							<abbr title="Cascading Style Sheets">CSS</abbr> Resources						</a>
+					</li>
+					<li class="zen-faq">
+						<a  style="color: rgb(50,50,50);"href="http://www.mezzoblue.com/zengarden/faq/" title="A list of Frequently Asked Questions about the Zen Garden.">
+							<abbr title="Frequently Asked Questions">FAQ</abbr>						</a>
+					</li>
+					<li class="zen-submit">
+						<a  style="color: rgb(50,50,50);"href="http://www.mezzoblue.com/zengarden/submit/" title="Send in your own CSS file.">
+							Submit a Design						</a>
+					</li>
+					<li class="zen-translations">
+						<a  style="color: rgb(50,50,50);"href="http://www.mezzoblue.com/zengarden/translations/" title="View translated versions of this page.">
+							Translations						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</aside>
+<div class="e"></div>
+
+</div>
+
+
+<div class="extra1" role="presentation"></div><div class="extra2" role="presentation"></div><div class="extra3" role="presentation"></div>
+<div class="extra4" role="presentation"></div><div class="extra5" role="presentation"></div><div class="extra6" role="presentation"></div>
+
+</body>
+</html>
