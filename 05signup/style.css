@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.limiter{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-login{
+   min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrap-login{
+    width: 680px;
+    background: #fff;
+    border-radius: 12px;
+    position: relative;
+    padding: 50px;
+}
+.login-form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.login-form-title{
+    width: 100%;
+    display: block;
+    font-size: 40px;
+    color: #555555;
+    line-height: 1.2;
+    text-align: center;
+}
+.btn-face,.btn-google{
+    font-size: 18px;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 70px;
+    width: 265px;
+    border-radius: 50px;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    transition: all 0.4s;
+    position: relative;
+    z-index: 1;
+}
+.btn-face::before,.btn-google::before{
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    top: 0;
+    left: 0;
+    background: #a64bf4;
+    opacity: 0;
+    transition: all 0.4s;
+}
+.btn-face:hover:before,.btn-google:hover:before{
+    opacity: 1;
+    color: white;
+}
+.btn-face{
+    color: white;
+    background-color: #3b5998;
+}
+.btn-face i{
+    font-size: 30px;
+    margin-right: 15px;
+    padding-bottom: 3px;
+}
+.btn-google i{
+    font-size: 30px;
+    margin-right: 15px;
+    padding-bottom: 3px;
+}
+.btn-google{
+   color: white;
+    background-color: #d63031; 
+}
+.btn-face:hover,.btn-google:hover{
+    color: white;
+    text-decoration: none;
+}
+.wrap-input{
+    width: 100%;
+    position: relative;
+    background-color: #f7f7f7;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+}
+input{
+    outline: none;
+    border: 0;
+}
+.inputcustom{
+    color: #333;
+    font-size: 20px;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    height: 60px;
+    padding: 0 20px;
+}
+.login-form-btn{
+    height: 60px;
+    padding: 0 20px;
+    background-color: #333;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+    line-height: 1.2;
+    transition: all 0.4s;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+.login-form-btn::before{
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    background: #a64bf4;
+    opacity: 0;
+    transition: all 0.4s;
+}
+.login-form-btn:hover:before{
+    opacity: 1;
+    color: white;
+}
+.w-full{
+    width: 100%;
+}
+.txt2{
+    font-size: 14px;
+    color: #999;
+    line-height: 1.5;
+}
+a:focus{
+    outline: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #fc00ff;
+}
+/*media queries*/
+@media (max-width:768px){
+    .wrap-login{
+        padding: 0 60px;
+    }
+    @media (max-width:576px){
+      .wrap-login{
+        padding: 0 30px;
+    } 
+        .btn-face,.btn-google{
+            width: 100%;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

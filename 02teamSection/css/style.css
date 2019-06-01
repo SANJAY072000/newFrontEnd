@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(to right,#8A2387,#E94057,#F27121);
+}
+.team-box{
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+}
+.team-box:hover{
+    border: 3px solid #e5e5e5;
+}
+.team-img img{
+    border: 3px solid #e0e0e0;
+    box-shadow: 5px 10px 15px -5px rgba(231,230,230,0.5);
+}
+.team-title h3{
+    font-size: 1.6em;
+    color: white;
+}
+.team-title h4{
+    font-size: 1em;
+    padding: 10px;
+    color: white;
+}
+@media (min-width:576px){
+    body{
+        background: linear-gradient(to right,#2193b0,#6dd5ed);
+    }
+}
+@media (min-width:768px){
+   body{
+        background: linear-gradient(to right,#fc4a1a,#f7b733);
+    } 
+}
+@media (min-width:992px){
+    body{
+        background: linear-gradient(to right,#ff4b1f,#1fddff);
+    }
+}
+
+
+
+
+
+

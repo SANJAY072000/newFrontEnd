@@ -1,0 +1,30 @@
+body{
+    background: url("../images/Desktop.png")
+        no-repeat center center fixed;
+    background-size: cover;
+}
+h1{
+    margin: 60px;
+    text-align: center;
+    font-family: 'Sedgwick Ave', cursive;
+}
+.btn{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.u{
+    height: 315px;
+    width: 560px;
+    box-shadow: 2px 2px 2px 1px rgba(82, 82, 82, 0.6);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
