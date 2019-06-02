@@ -1,0 +1,239 @@
+@import "mixins";
+$rockingred:(
+    rr1:#c00101,
+    rr2:#ff0000,
+    rr3:#890202,
+    rr4:#4c0000,
+);
+$oldgrey:(
+    og1:#e6e5e5,
+    og2:#f2f2f2,
+    og3:#ffffff,
+);
+$beckyblack:(
+    bb1:#000000,
+    bb2:#0e1010,
+); 
+$mightgreat:(
+    mg1:#EEC213,
+);   
+
+
+@function rr($a){
+    @return map-get($rockingred,$a);
+}  
+@function og($a){
+    @return map-get($oldgrey,$a);
+}    
+@function bb($a){
+    @return map-get($beckyblack,$a);
+}    
+@function mg($a){
+    @return map-get($mightgreat,$a);
+}
+    
+    
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+body{
+    #top-bar{
+        .container-fluid{
+@include tpb-container-fluid();
+            .tpb-a{
+            a{
+             @include tpb-a();
+            }
+            a:hover{
+                 @include tpb-a-hover();
+                }
+            }
+        }   
+    }
+    #top-img{
+            @include top-img();
+        .r1{
+            h1{
+            @include r1-h1();
+            }
+            h5{
+            @include r1-h5();
+            }
+            .bk{
+            @include r1-bk();
+            }
+        }
+    }
+    #google-reviews{
+        @include gr();
+        h5{
+        @include gr-h5();
+        }
+        .bk{
+            @include r1-bk();
+            color: og(og3);
+        }
+    }
+    #trouble{
+    @include trb();
+        h4{
+           @include trb-h4();
+        }
+        p{
+       @include trb-p();
+        }
+    }
+    
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    body{
+    #top-bar{
+        .container-fluid{
+@include tpb-container-fluid();
+            .tpb-a{
+            a{
+             @include tpb-a();
+            }
+            a:hover{
+                 @include tpb-a-hover();
+                }
+            }
+        }   
+    }
+    #google-reviews{
+        @include gr();
+        h5{
+        @include gr-h5();
+        }
+        .bk{
+            @include r1-bk();
+            color: og(og3);
+        }
+    }
+    }
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+   body{
+    #top-bar{
+        .container-fluid{
+@include tpb-container-fluid();
+            .tpb-a{
+            a{
+             @include tpb-a();
+            }
+            a:hover{
+                 @include tpb-a-hover();
+                }
+            }
+        }   
+    }
+       #google-reviews{
+        @include gr();
+        h5{
+        @include gr-h5();
+        }
+        .bk{
+            @include r1-bk();
+            color: og(og3);
+        }
+    }
+    }
+}
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    body{
+   #top-bar{
+        .container-fluid{
+@include tpb-container-fluid();
+            background-color: bb(bb1);
+            .tpb-a{
+            a{
+             @include tpb-a();
+            }
+            a:hover{
+                 @include tpb-a-hover();
+                }
+            }
+            .tpb-a2{
+               @include tpb-a2();
+            }
+             .tpb-a2:hover{
+               @include tpb-a2-hover();
+            }
+        }   
+    }
+    #google-reviews{
+        @include gr();
+        h5{
+        @include gr-h5();
+        font-size: 1.1em;
+        }
+        .bk{
+            @include r1-bk();
+            color: og(og3);
+        }
+    }
+    }
+}
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+body{
+    #top-bar{
+        .container-fluid{
+@include tpb-container-fluid();
+            background-color: bb(bb1);
+            .tpb-a{
+            a{
+             @include tpb-a();
+            }
+            a:hover{
+                 @include tpb-a-hover();
+                }
+            }
+            .tpb-a2{
+                color: white;
+                padding: 5px;
+            }
+             .tpb-a2:hover{
+                color: white;
+                padding: 5px;
+                 text-decoration: none;
+            }
+        }   
+    }
+    #google-reviews{
+        @include gr();
+        h5{
+        @include gr-h5();
+        font-size: 1.15em;
+        }
+        .bk{
+            @include r1-bk();
+            color: og(og3);
+        }
+    }
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

@@ -1,0 +1,242 @@
+body #top-bar .container-fluid {
+  background-color: #c00101;
+  padding: 9px;
+  width: 100%;
+  position: relative;
+  z-index: 1; }
+  body #top-bar .container-fluid .tpb-a a {
+    background-color: #c00101;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 0.7em;
+    border: 2px solid #ffffff;
+    font-weight: bolder;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+  body #top-bar .container-fluid .tpb-a a:hover {
+    background-color: #ffffff;
+    color: #c00101;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 0.7em;
+    border: 2px solid #ffffff;
+    font-weight: bolder; }
+body #top-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  height: 700px;
+  width: 100%;
+  background: url(../images/calgary-criminal-defence-lawyer-home-page-banner.jpg) no-repeat center center fixed;
+  background-size: cover; }
+  body #top-img .r1 h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300; }
+  body #top-img .r1 h5 {
+    font-size: 1em;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 300; }
+  body #top-img .r1 .bk {
+    font-weight: 300;
+    font-size: 0.95em;
+    font-family: 'Lato', sans-serif; }
+body #google-reviews {
+  margin-top: 527px;
+  width: 100%;
+  height: 185px;
+  background-color: #c00101; }
+  body #google-reviews h5 {
+    font-size: 1.2em;
+    font-family: 'Catamaran', sans-serif; }
+  body #google-reviews .bk {
+    font-weight: 300;
+    font-size: 0.95em;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff; }
+body #trouble {
+  width: 100%;
+  height: 445px;
+  background: url(../images/oykhman-criminal-defence-calgary-logo-banner.gif) no-repeat center center fixed;
+  background-size: cover; }
+  body #trouble h4 {
+    color: #890202;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: bolder; }
+  body #trouble p {
+    font-size: 1.4em;
+    width: 83%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300; }
+
+@media (min-width: 576px) {
+  body #top-bar .container-fluid {
+    background-color: #c00101;
+    padding: 9px;
+    width: 100%;
+    position: relative;
+    z-index: 1; }
+    body #top-bar .container-fluid .tpb-a a {
+      background-color: #c00101;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 0.7em;
+      border: 2px solid #ffffff;
+      font-weight: bolder;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+    body #top-bar .container-fluid .tpb-a a:hover {
+      background-color: #ffffff;
+      color: #c00101;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 0.7em;
+      border: 2px solid #ffffff;
+      font-weight: bolder; }
+  body #google-reviews {
+    margin-top: 527px;
+    width: 100%;
+    height: 185px;
+    background-color: #c00101; }
+    body #google-reviews h5 {
+      font-size: 1.2em;
+      font-family: 'Catamaran', sans-serif; }
+    body #google-reviews .bk {
+      font-weight: 300;
+      font-size: 0.95em;
+      font-family: 'Lato', sans-serif;
+      color: #ffffff; } }
+@media (min-width: 768px) {
+  body #top-bar .container-fluid {
+    background-color: #c00101;
+    padding: 9px;
+    width: 100%;
+    position: relative;
+    z-index: 1; }
+    body #top-bar .container-fluid .tpb-a a {
+      background-color: #c00101;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 0.7em;
+      border: 2px solid #ffffff;
+      font-weight: bolder;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+    body #top-bar .container-fluid .tpb-a a:hover {
+      background-color: #ffffff;
+      color: #c00101;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 0.7em;
+      border: 2px solid #ffffff;
+      font-weight: bolder; }
+  body #google-reviews {
+    margin-top: 527px;
+    width: 100%;
+    height: 185px;
+    background-color: #c00101; }
+    body #google-reviews h5 {
+      font-size: 1.2em;
+      font-family: 'Catamaran', sans-serif; }
+    body #google-reviews .bk {
+      font-weight: 300;
+      font-size: 0.95em;
+      font-family: 'Lato', sans-serif;
+      color: #ffffff; } }
+@media (min-width: 992px) {
+  body #top-bar .container-fluid {
+    background-color: #c00101;
+    padding: 9px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: #000000; }
+    body #top-bar .container-fluid .tpb-a a {
+      background-color: #c00101;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 0.7em;
+      border: 2px solid #ffffff;
+      font-weight: bolder;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+    body #top-bar .container-fluid .tpb-a a:hover {
+      background-color: #ffffff;
+      color: #c00101;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 0.7em;
+      border: 2px solid #ffffff;
+      font-weight: bolder; }
+    body #top-bar .container-fluid .tpb-a2 {
+      color: white;
+      padding: 5px;
+      font-size: 0.8em; }
+    body #top-bar .container-fluid .tpb-a2:hover {
+      color: white;
+      padding: 5px;
+      text-decoration: none;
+      font-size: 0.8em; }
+  body #google-reviews {
+    margin-top: 527px;
+    width: 100%;
+    height: 185px;
+    background-color: #c00101; }
+    body #google-reviews h5 {
+      font-size: 1.2em;
+      font-family: 'Catamaran', sans-serif;
+      font-size: 1.1em; }
+    body #google-reviews .bk {
+      font-weight: 300;
+      font-size: 0.95em;
+      font-family: 'Lato', sans-serif;
+      color: #ffffff; } }
+@media (min-width: 1200px) {
+  body #top-bar .container-fluid {
+    background-color: #c00101;
+    padding: 9px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: #000000; }
+    body #top-bar .container-fluid .tpb-a a {
+      background-color: #c00101;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 0.7em;
+      border: 2px solid #ffffff;
+      font-weight: bolder;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+    body #top-bar .container-fluid .tpb-a a:hover {
+      background-color: #ffffff;
+      color: #c00101;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 0.7em;
+      border: 2px solid #ffffff;
+      font-weight: bolder; }
+    body #top-bar .container-fluid .tpb-a2 {
+      color: white;
+      padding: 5px; }
+    body #top-bar .container-fluid .tpb-a2:hover {
+      color: white;
+      padding: 5px;
+      text-decoration: none; }
+  body #google-reviews {
+    margin-top: 527px;
+    width: 100%;
+    height: 185px;
+    background-color: #c00101; }
+    body #google-reviews h5 {
+      font-size: 1.2em;
+      font-family: 'Catamaran', sans-serif;
+      font-size: 1.15em; }
+    body #google-reviews .bk {
+      font-weight: 300;
+      font-size: 0.95em;
+      font-family: 'Lato', sans-serif;
+      color: #ffffff; } }
+
+/*# sourceMappingURL=lawOrderstyle.css.map */
