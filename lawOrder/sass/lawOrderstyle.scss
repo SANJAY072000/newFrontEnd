@@ -82,7 +82,37 @@ body{
        @include trb-p();
         }
     }
-    
+    #counter{
+        h1{
+           @include counter-h1();
+        }
+    }
+    #pa{
+        @include pa();
+        .red-block{
+           @include red-block();
+            .col-lg-6{
+                @include pa-lg-6();
+            }
+        }
+    }
+    #csl{
+       @include csl();
+        img{
+            @include csl-img();
+        }
+    }
+    #dl{
+        h1{
+           @include dl-h1();
+        } 
+        p{
+            @include dl-p();
+        }
+        .lgt{
+            @include dl-lgt();
+        }
+    }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -177,6 +207,16 @@ body{
         .bk{
             @include r1-bk();
             color: og(og3);
+        }
+    }
+        #pa{
+        @include pa();
+            height: 800px;
+        .red-block{
+           @include red-block();
+            .col-lg-6{
+                @include pa-lg-6();
+            }
         }
     }
     }

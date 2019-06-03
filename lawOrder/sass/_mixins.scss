@@ -87,15 +87,51 @@ z-index: 1;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 300;
 }
-
-
-
-
-
-
-
-
-
+@mixin counter-h1(){
+    color: rr(rr3);
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+}
+@mixin pa(){
+    background: url(../images/criminal-defence-practice-areas-calgary-banner.gif) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 1315px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+@mixin red-block(){
+    background-color: rr(rr2);
+    opacity: 0.8;
+}
+@mixin pa-lg-6(){
+    background-color: rr(rr3);
+    font-size: 1em;
+}
+@mixin csl(){
+    height: 250px;
+    background-color: og(og2);
+    width: 100%;
+    padding: 40px;
+}
+@mixin csl-img(){
+    width: 180px;
+    height: 70px;
+}
+@mixin dl-h1(){
+    color: rr(rr3);
+    font-weight: 300;
+    font-family: 'Dancing Script', cursive;
+}
+@mixin dl-p(){
+    font-weight: bolder;
+    font-family: 'News Cycle', sans-serif;
+}
+@mixin dl-lgt(){
+    font-weight: 300;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 0.975em;
+}
 
 
 
