@@ -113,6 +113,59 @@ body{
             @include dl-lgt();
         }
     }
+    #cr{
+       @include cr();
+        h1{
+        @include cr-h1();
+        }
+        .test{
+           @include cr-test();
+            p{
+                @include cr-p();
+            }
+            .fa-star{
+                @include cr-fa-star();
+            }
+        }
+    }
+    #successcases{
+@include sc();
+        h1{
+            @include sc-h1();
+        }
+        .card{
+            i{
+                @include card-i();
+            }
+            .card-text{
+               @include card-text();
+            }
+            h6{
+            @include card-h6();  
+            }
+        }
+        .card:hover{
+            opacity: 0.5;
+        }
+        p{
+            font-size: 0.8em;
+        }
+    }
+    #nos{
+        @include nos();
+        h4{
+           @include nos-h4();
+        }
+    }
+    #cdl{
+       @include cdl();
+        img{
+           @include cdl-img();
+        }
+        h4{
+          @include cdl-h5();
+        }
+    }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -139,6 +192,25 @@ body{
         .bk{
             @include r1-bk();
             color: og(og3);
+        }
+    }
+         #cr{
+       @include cr();
+        h1{
+        @include cr-h1();
+            font-size: 1.8em;
+        }
+        .test{
+           @include cr-test();
+            width: 100%;
+            margin-left: 0;
+            p{
+                @include cr-p();
+                font-size: 1.1em;
+            }
+            .fa-star{
+                @include cr-fa-star();
+            }
         }
     }
     }
@@ -217,6 +289,70 @@ body{
             .col-lg-6{
                 @include pa-lg-6();
             }
+        }
+    }
+         #cr{
+       @include cr();
+             height: 1000px;
+        h1{
+        @include cr-h1();
+            font-size: 2em;
+            font-family: 'Open Sans Condensed', sans-serif;
+        }
+        .test{
+           @include cr-test();
+            width: 100%;
+            margin-left: 0;
+            p{
+                @include cr-p();
+                font-size: 1.2em;
+            }
+            .fa-star{
+                @include cr-fa-star();
+            }
+        }     
+    }
+        #successcases{
+@include sc();
+            height: 1400px;
+        h1{
+            @include sc-h1();
+            font-family: 'Catamaran', sans-serif;
+        }
+        .card{
+            i{
+                @include card-i();
+            }
+            .card-text{
+               @include card-text();
+            }
+            h6{
+            @include card-h6();  
+            }
+        }
+        .card:hover{
+            opacity: 0.5;
+        }
+        p{
+            font-size: 0.8em;
+        }
+    }
+        #nos{
+        @include nos();
+            height: 220px;
+        h4{
+           @include nos-h4();
+        }
+    }
+        #cdl{
+       @include cdl();
+        img{
+           @include cdl-img();
+            width: 230px;
+            height: 90px;
+        }
+        h4{
+          @include cdl-h5();
         }
     }
     }

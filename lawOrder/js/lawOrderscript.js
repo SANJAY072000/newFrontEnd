@@ -55,10 +55,32 @@ $(()=>{
      $(".nl6").mouseout(()=>{
         $(".nl6").css("color","white");
     });
-  
-    
-    
-    
+  $(".bc").mouseover(()=>{
+      $(".bc").css("opacity","0.8");
+  });
+  $(".bc").mouseout(()=>{
+      $(".bc").css("opacity","1");
+  });  
+   $(".mc").mouseover(()=>{
+      $(".mc").css({"background-color":"#c00101"});
+  });
+  $(".mc").mouseout(()=>{
+      $(".mc").css({"background-color":"transparent"});
+  });
+    $(".scb").mouseover(()=>{
+      $(".scb").css({"background-color":"#c00101"});
+  });
+  $(".scb").mouseout(()=>{
+      $(".scb").css({"background-color":"transparent"});
+  });
+    $(".bfc").mouseover(()=>{
+      $(".bfc").css({"background-color":"white",
+                    "color":"#c00101"});
+  });
+  $(".bfc").mouseout(()=>{
+      $(".bfc").css({"background-color":"#c00101",
+                    "color":"white"});
+  });
 });
 
 

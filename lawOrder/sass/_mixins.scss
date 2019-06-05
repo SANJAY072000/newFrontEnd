@@ -132,6 +132,96 @@ z-index: 1;
     font-family: 'Catamaran', sans-serif;
     font-size: 0.975em;
 }
+@mixin cr(){
+    background: url(../images/criminal-defence-lawyer-review-calgay-banner.gif) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 1650px;
+}
+@mixin cr-h1(){
+    font-family: 'Satisfy', cursive;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+@mixin cr-test(){
+    background: url(../images/testimonials-bg2-2.jpg)
+    no-repeat center center;
+    background-size: cover;
+    width: 150%;
+    height: 400px; 
+    margin-left: -65px;
+}
+@mixin cr-p(){
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    color: #6b6767;
+    font-size: 1.2em;
+    width: 100%;
+    padding-top: 50px;
+}
+@mixin cr-fa-star(){
+    color: mg(mg1);
+    font-size: 1.4em;
+}
+@mixin sc(){
+background: url(../images/criminal-defence-successful-cases-calgary-banner.gif) no-repeat center center fixed;
+background-size: cover;
+width: 100%;
+height: 3200px;
+}
+@mixin sc-h1(){
+    font-family: 'Dancing Script', cursive;
+    font-weight: 300;
+}
+@mixin card-i(){
+    text-align: center;
+    font-size: 5em;
+    color: bb(bb2);
+    margin-top: 20px;
+}
+@mixin card-text(){
+    color: rr(rr1);
+    font-weight: bolder;
+    font-size: 0.7em;
+}
+@mixin card-h6(){
+    color: rr(rr1);
+    font-weight: bolder;
+}
+@mixin nos(){
+    background-color: rr(rr1);
+    width: 100%;
+    height: 320px;
+}
+@mixin nos-h4(){
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+}
+@mixin cdl(){
+    background-color: bb(bb1);
+    height: 500px;
+}
+@mixin cdl-img(){
+     width: 180px;
+     height: 70px;
+}
+@mixin cdl-h5(){
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
