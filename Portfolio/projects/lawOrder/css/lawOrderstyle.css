@@ -1,0 +1,462 @@
+body #top-bar .container-fluid {
+  background-color: #c00101;
+  padding: 9px;
+  width: 100%;
+  position: relative;
+  z-index: 1; }
+  body #top-bar .container-fluid .tpb-a a {
+    background-color: #c00101;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 0.7em;
+    border: 2px solid #ffffff;
+    font-weight: bolder;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+  body #top-bar .container-fluid .tpb-a a:hover {
+    background-color: #ffffff;
+    color: #c00101;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 0.7em;
+    border: 2px solid #ffffff;
+    font-weight: bolder; }
+body #top-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  height: 700px;
+  width: 100%;
+  background: url(../images/calgary-criminal-defence-lawyer-home-page-banner.jpg) no-repeat center center fixed;
+  background-size: cover; }
+  body #top-img .r1 h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300; }
+  body #top-img .r1 h5 {
+    font-size: 1em;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 300; }
+  body #top-img .r1 .bk {
+    font-weight: 300;
+    font-size: 0.95em;
+    font-family: 'Lato', sans-serif; }
+body #google-reviews {
+  margin-top: 527px;
+  width: 100%;
+  height: 185px;
+  background-color: #c00101; }
+  body #google-reviews h5 {
+    font-size: 1.2em;
+    font-family: 'Catamaran', sans-serif; }
+  body #google-reviews .bk {
+    font-weight: 300;
+    font-size: 0.95em;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff; }
+body #trouble {
+  width: 100%;
+  height: 445px;
+  background: url(../images/oykhman-criminal-defence-calgary-logo-banner.gif) no-repeat center center fixed;
+  background-size: cover; }
+  body #trouble h4 {
+    color: #890202;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: bolder; }
+  body #trouble p {
+    font-size: 1.4em;
+    width: 83%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300; }
+body #counter h1 {
+  color: #890202;
+  font-weight: bolder;
+  font-family: 'Lato', sans-serif; }
+body #pa {
+  background: url(../images/criminal-defence-practice-areas-calgary-banner.gif) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 1315px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+  body #pa .red-block {
+    background-color: #ff0000;
+    opacity: 0.8; }
+    body #pa .red-block .col-lg-6 {
+      background-color: #890202;
+      font-size: 1em; }
+body #csl {
+  height: 250px;
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 40px; }
+  body #csl img {
+    width: 180px;
+    height: 70px; }
+body #dl h1 {
+  color: #890202;
+  font-weight: 300;
+  font-family: 'Dancing Script', cursive; }
+body #dl p {
+  font-weight: bolder;
+  font-family: 'News Cycle', sans-serif; }
+body #dl .lgt {
+  font-weight: 300;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 0.975em; }
+body #cr {
+  background: url(../images/criminal-defence-lawyer-review-calgay-banner.gif) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 1650px; }
+  body #cr h1 {
+    font-family: 'Satisfy', cursive;
+    font-weight: 300;
+    font-size: 1.5em; }
+  body #cr .test {
+    background: url(../images/testimonials-bg2-2.jpg) no-repeat center center;
+    background-size: cover;
+    width: 150%;
+    height: 400px;
+    margin-left: -65px; }
+    body #cr .test p {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-weight: 300;
+      color: #6b6767;
+      font-size: 1.2em;
+      width: 100%;
+      padding-top: 50px; }
+    body #cr .test .fa-star {
+      color: #EEC213;
+      font-size: 1.4em; }
+body #successcases {
+  background: url(../images/criminal-defence-successful-cases-calgary-banner.gif) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 3200px; }
+  body #successcases h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 300; }
+  body #successcases .card i {
+    text-align: center;
+    font-size: 5em;
+    color: #0e1010;
+    margin-top: 20px; }
+  body #successcases .card .card-text {
+    color: #c00101;
+    font-weight: bolder;
+    font-size: 0.7em; }
+  body #successcases .card h6 {
+    color: #c00101;
+    font-weight: bolder; }
+  body #successcases .card:hover {
+    opacity: 0.5; }
+  body #successcases p {
+    font-size: 0.8em; }
+body #nos {
+  background-color: #c00101;
+  width: 100%;
+  height: 320px; }
+  body #nos h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder; }
+body #cdl {
+  background-color: #000000;
+  height: 500px; }
+  body #cdl img {
+    width: 180px;
+    height: 70px; }
+  body #cdl h4 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 300; }
+
+@media (min-width: 576px) {
+  body #top-bar .container-fluid {
+    background-color: #c00101;
+    padding: 9px;
+    width: 100%;
+    position: relative;
+    z-index: 1; }
+    body #top-bar .container-fluid .tpb-a a {
+      background-color: #c00101;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 0.7em;
+      border: 2px solid #ffffff;
+      font-weight: bolder;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+    body #top-bar .container-fluid .tpb-a a:hover {
+      background-color: #ffffff;
+      color: #c00101;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 0.7em;
+      border: 2px solid #ffffff;
+      font-weight: bolder; }
+  body #google-reviews {
+    margin-top: 527px;
+    width: 100%;
+    height: 185px;
+    background-color: #c00101; }
+    body #google-reviews h5 {
+      font-size: 1.2em;
+      font-family: 'Catamaran', sans-serif; }
+    body #google-reviews .bk {
+      font-weight: 300;
+      font-size: 0.95em;
+      font-family: 'Lato', sans-serif;
+      color: #ffffff; }
+  body #cr {
+    background: url(../images/criminal-defence-lawyer-review-calgay-banner.gif) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 1650px; }
+    body #cr h1 {
+      font-family: 'Satisfy', cursive;
+      font-weight: 300;
+      font-size: 1.5em;
+      font-size: 1.8em; }
+    body #cr .test {
+      background: url(../images/testimonials-bg2-2.jpg) no-repeat center center;
+      background-size: cover;
+      width: 150%;
+      height: 400px;
+      margin-left: -65px;
+      width: 100%;
+      margin-left: 0; }
+      body #cr .test p {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 300;
+        color: #6b6767;
+        font-size: 1.2em;
+        width: 100%;
+        padding-top: 50px;
+        font-size: 1.1em; }
+      body #cr .test .fa-star {
+        color: #EEC213;
+        font-size: 1.4em; } }
+@media (min-width: 768px) {
+  body #top-bar .container-fluid {
+    background-color: #c00101;
+    padding: 9px;
+    width: 100%;
+    position: relative;
+    z-index: 1; }
+    body #top-bar .container-fluid .tpb-a a {
+      background-color: #c00101;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 0.7em;
+      border: 2px solid #ffffff;
+      font-weight: bolder;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+    body #top-bar .container-fluid .tpb-a a:hover {
+      background-color: #ffffff;
+      color: #c00101;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 0.7em;
+      border: 2px solid #ffffff;
+      font-weight: bolder; }
+  body #google-reviews {
+    margin-top: 527px;
+    width: 100%;
+    height: 185px;
+    background-color: #c00101; }
+    body #google-reviews h5 {
+      font-size: 1.2em;
+      font-family: 'Catamaran', sans-serif; }
+    body #google-reviews .bk {
+      font-weight: 300;
+      font-size: 0.95em;
+      font-family: 'Lato', sans-serif;
+      color: #ffffff; } }
+@media (min-width: 992px) {
+  body #top-bar .container-fluid {
+    background-color: #c00101;
+    padding: 9px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: #000000; }
+    body #top-bar .container-fluid .tpb-a a {
+      background-color: #c00101;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 0.7em;
+      border: 2px solid #ffffff;
+      font-weight: bolder;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+    body #top-bar .container-fluid .tpb-a a:hover {
+      background-color: #ffffff;
+      color: #c00101;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 0.7em;
+      border: 2px solid #ffffff;
+      font-weight: bolder; }
+    body #top-bar .container-fluid .tpb-a2 {
+      color: white;
+      padding: 5px;
+      font-size: 0.8em; }
+    body #top-bar .container-fluid .tpb-a2:hover {
+      color: white;
+      padding: 5px;
+      text-decoration: none;
+      font-size: 0.8em; }
+  body #google-reviews {
+    margin-top: 527px;
+    width: 100%;
+    height: 185px;
+    background-color: #c00101; }
+    body #google-reviews h5 {
+      font-size: 1.2em;
+      font-family: 'Catamaran', sans-serif;
+      font-size: 1.1em; }
+    body #google-reviews .bk {
+      font-weight: 300;
+      font-size: 0.95em;
+      font-family: 'Lato', sans-serif;
+      color: #ffffff; }
+  body #pa {
+    background: url(../images/criminal-defence-practice-areas-calgary-banner.gif) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 1315px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    height: 800px; }
+    body #pa .red-block {
+      background-color: #ff0000;
+      opacity: 0.8; }
+      body #pa .red-block .col-lg-6 {
+        background-color: #890202;
+        font-size: 1em; }
+  body #cr {
+    background: url(../images/criminal-defence-lawyer-review-calgay-banner.gif) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 1650px;
+    height: 1000px; }
+    body #cr h1 {
+      font-family: 'Satisfy', cursive;
+      font-weight: 300;
+      font-size: 1.5em;
+      font-size: 2em;
+      font-family: 'Open Sans Condensed', sans-serif; }
+    body #cr .test {
+      background: url(../images/testimonials-bg2-2.jpg) no-repeat center center;
+      background-size: cover;
+      width: 150%;
+      height: 400px;
+      margin-left: -65px;
+      width: 100%;
+      margin-left: 0; }
+      body #cr .test p {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 300;
+        color: #6b6767;
+        font-size: 1.2em;
+        width: 100%;
+        padding-top: 50px;
+        font-size: 1.2em; }
+      body #cr .test .fa-star {
+        color: #EEC213;
+        font-size: 1.4em; }
+  body #successcases {
+    background: url(../images/criminal-defence-successful-cases-calgary-banner.gif) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 3200px;
+    height: 1400px; }
+    body #successcases h1 {
+      font-family: 'Dancing Script', cursive;
+      font-weight: 300;
+      font-family: 'Catamaran', sans-serif; }
+    body #successcases .card i {
+      text-align: center;
+      font-size: 5em;
+      color: #0e1010;
+      margin-top: 20px; }
+    body #successcases .card .card-text {
+      color: #c00101;
+      font-weight: bolder;
+      font-size: 0.7em; }
+    body #successcases .card h6 {
+      color: #c00101;
+      font-weight: bolder; }
+    body #successcases .card:hover {
+      opacity: 0.5; }
+    body #successcases p {
+      font-size: 0.8em; }
+  body #nos {
+    background-color: #c00101;
+    width: 100%;
+    height: 320px;
+    height: 220px; }
+    body #nos h4 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-weight: bolder; }
+  body #cdl {
+    background-color: #000000;
+    height: 500px; }
+    body #cdl img {
+      width: 180px;
+      height: 70px;
+      width: 230px;
+      height: 90px; }
+    body #cdl h4 {
+      font-family: 'Catamaran', sans-serif;
+      font-weight: 300; } }
+@media (min-width: 1200px) {
+  body #top-bar .container-fluid {
+    background-color: #c00101;
+    padding: 9px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: #000000; }
+    body #top-bar .container-fluid .tpb-a a {
+      background-color: #c00101;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 0.7em;
+      border: 2px solid #ffffff;
+      font-weight: bolder;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+    body #top-bar .container-fluid .tpb-a a:hover {
+      background-color: #ffffff;
+      color: #c00101;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 0.7em;
+      border: 2px solid #ffffff;
+      font-weight: bolder; }
+    body #top-bar .container-fluid .tpb-a2 {
+      color: white;
+      padding: 5px; }
+    body #top-bar .container-fluid .tpb-a2:hover {
+      color: white;
+      padding: 5px;
+      text-decoration: none; }
+  body #google-reviews {
+    margin-top: 527px;
+    width: 100%;
+    height: 185px;
+    background-color: #c00101; }
+    body #google-reviews h5 {
+      font-size: 1.2em;
+      font-family: 'Catamaran', sans-serif;
+      font-size: 1.15em; }
+    body #google-reviews .bk {
+      font-weight: 300;
+      font-size: 0.95em;
+      font-family: 'Lato', sans-serif;
+      color: #ffffff; } }
+
+/*# sourceMappingURL=lawOrderstyle.css.map */
